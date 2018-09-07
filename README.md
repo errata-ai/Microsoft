@@ -1,6 +1,6 @@
 # vale-boilerplate [![Travis branch](https://img.shields.io/travis/errata-ai/vale-boilerplate.svg?style=flat-square)](https://travis-ci.org/errata-ai/vale-boilerplate) ![GitHub release](https://img.shields.io/github/release/ValeLint/vale.svg?style=flat-square) ![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)
 
-This repository is meant to serve as a starting point for creating and maintaining your own [Vale-compatible](https://github.com/ValeLint/vale) style guide. It includes a full-featured implementation of the [18F Content Guide](https://content-guide.18f.gov/), including example rules for all of Vale's [extension points](https://errata.ai/vale/styles/#extension-points) and a unit test suite using [Cucumber](https://cucumber.io/), [`yamllint`](https://github.com/adrienverge/yamllint), and [Travis CI](https://travis-ci.org/).
+This repository is meant to serve as a starting point for creating and maintaining your own [Vale-compatible](https://github.com/ValeLint/vale) style guide. It includes a (fairly) complete implementation of the [18F Content Guide](https://content-guide.18f.gov/), including example rules for all of Vale's [extension points](https://errata.ai/vale/styles/#extension-points) and a unit test suite using [Cucumber](https://cucumber.io/), [`yamllint`](https://github.com/adrienverge/yamllint), and [Travis CI](https://travis-ci.org/).
 
 ## Repository Structure
 
