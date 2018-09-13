@@ -19,15 +19,15 @@ This repository is meant to serve as a starting point for creating and maintaini
 
 |   `check`    |                    Implementation(s)                   |
 |:------------:|:---------------------------------------------------:|
-| [`existence`](https://valelint.github.io/docs/styles/#existence)  | [`Spacing.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/Spacing.yml) |
-| [`substitution`](https://valelint.github.io/docs/styles/#substitution)  | [`Terms.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/Terms.yml), [`DropDown.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/DropDown.yml) (POS tags) |
-| [`occurrence`](https://valelint.github.io/docs/styles/#occurrence)  | [`SentenceLength.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/SentenceLength.yml) |
-| [`repetition`](https://valelint.github.io/docs/styles/#repetition)  | [`Repetition.yml`](https://github.com/ValeLint/vale/blob/master/rule/Repetition.yml) |
-| [`consistency`](https://valelint.github.io/docs/styles/#consistency)  | [`Spelling.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Spelling.yml) |
-| [`capitalization`](https://valelint.github.io/docs/styles/#capitalization)  | [`Headings.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/Headings.yml) |
-| [`readability`](https://valelint.github.io/docs/styles/#readability)  | [`Reading.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Reading.yml) |
-| [`conditional`](https://valelint.github.io/docs/styles/#conditional)  | [`UnexpandedAcronyms.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/UnexpandedAcronyms.yml) |
-| [`spelling`](https://valelint.github.io/docs/styles/#spelling)  | [`Spellcheck.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Spellcheck.yml) |
+| [`existence`](https://errata.ai/vale/styles/#existence)  | [`Spacing.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/Spacing.yml) |
+| [`substitution`](https://errata.ai/vale/styles/#substitution)  | [`Terms.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/Terms.yml), [`DropDown.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/DropDown.yml) (POS tags) |
+| [`occurrence`](https://errata.ai/vale/styles/#occurrence)  | [`SentenceLength.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/SentenceLength.yml) |
+| [`repetition`](https://errata.ai/vale/styles/#repetition)  | [`Repetition.yml`](https://github.com/ValeLint/vale/blob/master/rule/Repetition.yml) |
+| [`consistency`](https://errata.ai/vale/styles/#consistency)  | [`Spelling.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Spelling.yml) |
+| [`capitalization`](https://errata.ai/vale/styles/#capitalization)  | [`Headings.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/Headings.yml) |
+| [`readability`](https://errata.ai/vale/styles/#readability)  | [`Reading.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Reading.yml) |
+| [`conditional`](https://errata.ai/vale/styles/#conditional)  | [`UnexpandedAcronyms.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/UnexpandedAcronyms.yml) |
+| [`spelling`](https://errata.ai/vale/styles/#spelling)  | [`Spellcheck.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Spellcheck.yml) |
 
 
 
