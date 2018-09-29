@@ -22,8 +22,8 @@ This repository is meant to serve as a starting point for creating and maintaini
 | [`existence`](https://errata-ai.github.io/vale/styles/#existence)  | [`Spacing.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/Spacing.yml) |
 | [`substitution`](https://errata-ai.github.io/vale/styles/#substitution)  | [`Terms.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/Terms.yml), [`DropDown.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/DropDown.yml) (POS tags) |
 | [`occurrence`](https://errata-ai.github.io/vale/styles/#occurrence)  | [`SentenceLength.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/SentenceLength.yml) |
-| [`repetition`](hhttps://errata-ai.github.io/vale/styles/#repetition)  | [`Repetition.yml`](https://github.com/ValeLint/vale/blob/master/rule/Repetition.yml) |
-| [`consistency`](hhttps://errata-ai.github.io/vale/styles/#consistency)  | [`Spelling.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Spelling.yml) |
+| [`repetition`](https://errata-ai.github.io/vale/styles/#repetition)  | [`Repetition.yml`](https://github.com/ValeLint/vale/blob/master/rule/Repetition.yml) |
+| [`consistency`](https://errata-ai.github.io/vale/styles/#consistency)  | [`Spelling.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Spelling.yml) |
 | [`capitalization`](https://errata-ai.github.io/vale/styles/#capitalization)  | [`Headings.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/Headings.yml) |
 | [`readability`](https://errata-ai.github.io/vale/styles/#readability)  | [`Reading.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Reading.yml) |
 | [`conditional`](https://errata-ai.github.io/vale/styles/#conditional)  | [`UnexpandedAcronyms.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/UnexpandedAcronyms.yml) |
