@@ -2,7 +2,7 @@
 extends: substitution
 message: "Prefer %s over '%s'."
 level: warning
-ignorecase: true
+ignorecase: false
 swap:
   'e(?:-| )mail': email
   (?:illegals|illegal aliens): "'undocumented immigrants'"
