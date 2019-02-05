@@ -5,8 +5,8 @@ rvm:
 install:
   - eval "$(gimme 1.8)"
   - go get github.com/ValeLint/vale
-  - bundle install --jobs=3 --retry=3
+  - bundle install --jobs=3
   - pip install --user yamllint
 script:
-  - yamllint src
+  - yamllint -c '.yamllint.yml' Microsoft
   - cucumber
