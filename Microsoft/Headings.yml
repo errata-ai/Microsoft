@@ -1,7 +1,20 @@
 extends: capitalization
 message: "'%s' should use sentence-style capitalization."
-level: warning
+level: suggestion
 scope: heading
 match: $sentence
 exceptions:
-  - Test
+  - Azure
+  - Code
+  - Cosmos
+  - Docker
+  - Emmet
+  - I
+  - Kubernetes
+  - macOS
+  - Marketplace
+  - MongoDB
+  - REPL
+  - Studio
+  - Visual
+  - VS

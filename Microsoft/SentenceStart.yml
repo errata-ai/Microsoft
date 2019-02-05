@@ -1,7 +1,0 @@
-extends: existence
-message: "Always capitalize the first word of a new sentence."
-link: 'https://docs.microsoft.com/en-us/style-guide/capitalization'
-level: error
-nonword: true
-tokens:
-  - '[.?!] *[a-z]'

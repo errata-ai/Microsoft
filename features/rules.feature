@@ -113,6 +113,5 @@ Feature: Rules
     When I test "Sentences"
     Then the output should contain exactly:
       """
-      test.md:3:19:Microsoft.SentenceStart:Always capitalize the first word of a new sentence.
       test.md:5:22:Microsoft.Spacing:'. T' should have one space.
       """
