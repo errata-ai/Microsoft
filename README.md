@@ -8,7 +8,7 @@ The goal is to showcase how to build and maintain a full-featured style guide fo
 
 > :exclamation: Microsoft requires Vale >= **1.0.0**. :exclamation:
 
-Download the [latest release](https://github.com/errata-ai/Microsoft/releases) onto your `StylesPath` and include it in your configuration file:
+Download the [latest release](https://github.com/errata-ai/Microsoft/releases), copy the "Microsoft" directory onto your `StylesPath`, and include it in your configuration file:
 
 ```ini
 # This goes in a file named either `.vale.ini` or `_vale.ini`.
@@ -26,13 +26,13 @@ See [Usage](https://github.com/errata-ai/vale/#usage) for more information.
 ## Repository Structure
 
 <dl>
-  <dt><a href="https://github.com/ValeLint/vale-boilerplate/tree/master/src/18F"><code>/src</code></a></dt>
-  <dd>The <a href="http://yaml.org/">YAML</a>-based rule implementations that make up our style (in this case, 18F).</dd>
+  <dt><a href="https://github.com/errata-ai/Microsoft/tree/master/Microsoft"><code>/Microsoft</code></a></dt>
+  <dd>The <a href="http://yaml.org/">YAML</a>-based rule implementations that make up our style.</dd>
 
-  <dt><a href="https://github.com/ValeLint/vale-boilerplate/tree/master/fixtures"><code>/fixtures</code></a></dt>
-  <dd>The individual unit tests. Each directory should be named after a rule found in <code>/src</code> and include its own <code>.vale.ini</code> file that isolates its target rule.</dd>
+  <dt><a href="https://github.com/ValeLint/Microsoft/tree/master/fixtures"><code>/fixtures</code></a></dt>
+  <dd>The individual unit tests. Each directory should be named after a rule found in <code>/Microsoft</code> and include its own <code>.vale.ini</code> file that isolates its target rule.</dd>
 
-  <dt><a href="https://github.com/ValeLint/vale-boilerplate/tree/master/features"><code>/features</code></a></dt>
+  <dt><a href="https://github.com/ValeLint/Microsoft/tree/master/features"><code>/features</code></a></dt>
   <dd>The <a href="https://github.com/cucumber/cucumber/wiki/Step-Definitions">Cucumber Step Definitions</a> we use to test our fixtures. Essentially, we use the <a href="https://github.com/cucumber/aruba">aruba</a> framework to test Vale's output after running it on each of our fixture directories.</dd>
 </dl>
 
