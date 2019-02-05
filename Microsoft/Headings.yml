@@ -16,5 +16,6 @@ exceptions:
   - MongoDB
   - REPL
   - Studio
+  - TypeScript
   - Visual
   - VS

@@ -15,16 +15,21 @@ exceptions:
   - DEBUG
   - DOM
   - FAQ
+  - GET
   - GPU
   - HTML
+  - HTTP
   - JSON
   - NVDA
   - PATH
+  - POST
   - REPL
   - RSA
   - SCSS
   - SQL
   - SSH
+  - TBD
   - URL
   - USB
+  - YAML
   - XSS
