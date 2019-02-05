@@ -1,0 +1,19 @@
+extends: existence
+message: "Verify your use of '%s'."
+level: suggestion
+ignorecase: true
+tokens:
+  - '[0-9]'
+  - above
+  - accessible
+  - actionable
+  - against
+  - alarm
+  - alert
+  - alias
+  - allows?
+  - assure
+  - author
+  - avg
+  - ensure
+  - insure

@@ -1,7 +1,6 @@
----
 extends: existence
 message: "'%s' should have one space."
-link: https://content-guide.18f.gov/punctuation/#spaces
+link: https://docs.microsoft.com/en-us/style-guide/punctuation/periods
 level: error
 nonword: true
 tokens:
