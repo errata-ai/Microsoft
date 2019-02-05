@@ -1,3 +1,0 @@
-# Ellipses
-
-That was ... strange.

@@ -4,4 +4,4 @@ level: warning
 scope: heading
 match: $sentence
 exceptions:
- - Microsoft
+  - Test
