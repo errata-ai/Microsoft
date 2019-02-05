@@ -1,6 +1,27 @@
-# vale-boilerplate [![Travis branch](https://img.shields.io/travis/errata-ai/vale-boilerplate.svg?style=flat-square)](https://travis-ci.org/errata-ai/vale-boilerplate) ![GitHub release](https://img.shields.io/github/release/ValeLint/vale.svg?style=flat-square) ![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)
+# Microsoft [![Build Status](https://travis-ci.org/errata-ai/Microsoft.svg?branch=master)](https://travis-ci.org/errata-ai/Microsoft) ![GitHub release](https://img.shields.io/github/release/ValeLint/vale.svg) ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-This repository is meant to serve as a starting point for creating and maintaining your own [Vale-compatible](https://github.com/ValeLint/vale) style guide. It includes a (fairly) complete implementation of the [18F Content Guide](https://content-guide.18f.gov/), including example rules for all of Vale's [extension points](https://errata.ai/vale/styles/#extension-points) and a unit test suite using [Cucumber](https://cucumber.io/), [`yamllint`](https://github.com/adrienverge/yamllint), and [Travis CI](https://travis-ci.org/).
+This repository contains a [Vale-compatible](https://github.com/errata-ai/vale) implementation of the [*Microsoft Writing Style Guide*](https://docs.microsoft.com/en-us/style-guide/welcome/) ([LICENSE](https://github.com/MicrosoftDocs/microsoft-style-guide/blob/master/LICENSE)).
+
+The goal is to showcase how to build and maintain a full-featured style guide for Vale, including examples of every available [extension point](https://errata-ai.github.io/vale/styles/#extension-points) and a test suite using [Cucumber](https://cucumber.io/), [`yamllint`](https://github.com/adrienverge/yamllint), and [Travis CI](https://travis-ci.org/).
+
+## Getting Started
+
+> :exclamation: Microsoft requires Vale >= **1.0.0**. :exclamation:
+
+Download the [latest release](https://github.com/errata-ai/Microsoft/releases) onto your `StylesPath` and include it in your configuration file:
+
+```ini
+# This goes in a file named either `.vale.ini` or `_vale.ini`.
+StylesPath = path/to/some/directory
+MinAlertLevel = warning # suggestion, warning or error
+
+# Only Markdown and .txt files; change to whatever you're using.
+[*.{md,txt}]
+# List of styles to load.
+BasedOnStyles = Microsoft
+```
+
+See [Usage](https://github.com/errata-ai/vale/#usage) for more information.
 
 ## Repository Structure
 
