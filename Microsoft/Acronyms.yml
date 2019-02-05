@@ -20,13 +20,17 @@ exceptions:
   - GPU
   - HTML
   - HTTP
+  - IDE
   - JSON
+  - LESS
   - NVDA
   - PATH
+  - PHP
   - POST
   - REPL
   - RSA
   - SCSS
+  - SDK
   - SQL
   - SSH
   - TBD
@@ -34,6 +38,4 @@ exceptions:
   - USB
   - XSS
   - YAML
-  - IDE
-  - LESS
-  - PHP
+  - ZIP
