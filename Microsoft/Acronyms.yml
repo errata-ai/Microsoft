@@ -1,5 +1,5 @@
 extends: conditional
-message: "'%s' has no definition"
+message: "'%s' has no definition."
 link: 'https://docs.microsoft.com/en-us/style-guide/acronyms'
 level: warning
 ignorecase: false

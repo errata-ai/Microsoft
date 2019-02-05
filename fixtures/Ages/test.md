@@ -1,1 +1,0 @@
-For example, a group of 10 18-year-old White House tourists.

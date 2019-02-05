@@ -1,5 +1,5 @@
 extends: existence
-message: "Consider removing '%s'"
+message: "Consider removing '%s.'"
 link: https://docs.microsoft.com/en-us/style-guide/word-choice/use-simple-words-concise-sentences
 ignorecase: true
 level: warning
@@ -9,10 +9,6 @@ tokens:
   - accidentally
   - actually
   - adventurously
-  - afterwards
-  - almost
-  - always
-  - annually
   - anxiously
   - arrogantly
   - awkwardly
@@ -66,9 +62,7 @@ tokens:
   - energetically
   - enormously
   - enthusiastically
-  - equally
   - especially
-  - even
   - evenly
   - eventually
   - exactly
@@ -77,9 +71,6 @@ tokens:
   - fairly
   - faithfully
   - famously
-  - far
-  - fast
-  - fatally
   - ferociously
   - fervently
   - fiercely
@@ -111,7 +102,6 @@ tokens:
   - highly
   - honestly
   - hopelessly
-  - hourly
   - hungrily
   - immediately
   - innocently
@@ -138,7 +128,6 @@ tokens:
   - knowingly
   - knowledgeably
   - lazily
-  - less
   - lightly
   - likely
   - limply
@@ -156,26 +145,19 @@ tokens:
   - merrily
   - miserably
   - mockingly
-  - monthly
-  - more
   - mortally
-  - mostly
   - mysteriously
   - naturally
   - nearly
   - neatly
   - nervously
-  - never
   - nicely
   - noisily
-  - not
   - obediently
   - obnoxiously
   - oddly
   - offensively
   - officially
-  - often
-  - only
   - openly
   - optimistically
   - overconfidently
@@ -225,7 +207,6 @@ tokens:
   - searchingly
   - sedately
   - seemingly
-  - seldom
   - selfishly
   - separately
   - seriously
@@ -242,7 +223,6 @@ tokens:
   - solemnly
   - solidly
   - sometimes
-  - soon
   - speedily
   - stealthily
   - sternly
@@ -262,8 +242,6 @@ tokens:
   - thoroughly
   - thoughtfully
   - tightly
-  - tomorrow
-  - too
   - tremendously
   - triumphantly
   - truly
@@ -278,10 +256,6 @@ tokens:
   - unimpressively
   - unnaturally
   - unnecessarily
-  - upbeat
-  - upright
-  - upside-down
-  - upward
   - urgently
   - usefully
   - uselessly
@@ -302,7 +276,6 @@ tokens:
   - warmly
   - weakly
   - wearily
-  - well
   - wetly
   - wholly
   - wildly
