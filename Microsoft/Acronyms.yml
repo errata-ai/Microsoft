@@ -11,6 +11,7 @@ exceptions:
   - AHD
   - API
   - CLI
+  - CPU
   - CSS
   - DEBUG
   - DOM
@@ -31,5 +32,8 @@ exceptions:
   - TBD
   - URL
   - USB
-  - YAML
   - XSS
+  - YAML
+  - IDE
+  - LESS
+  - PHP
