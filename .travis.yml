@@ -1,12 +1,14 @@
-language: ruby
+language: python
 cache: bundler
-rvm:
-  - 2.4
+python:
+  - 3.6
 install:
   - eval "$(gimme 1.8)"
   - go get github.com/ValeLint/vale
   - bundle install --jobs=3
-  - pip install --user yamllint
+  - pip install yamllint
+  - pip install markdata
+  - pip install pyyaml
 before_script:
   - yamllint -c '.yamllint.yml' Microsoft
 script:
