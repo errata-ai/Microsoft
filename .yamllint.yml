@@ -1,4 +1,3 @@
----
 rules:
   # We only include a single document (without directives) in our rules, so
   # the extra markup is unnecessary.
