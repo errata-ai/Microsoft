@@ -1,4 +1,4 @@
-# Microsoft [![Build Status](https://travis-ci.org/errata-ai/Microsoft.svg?branch=master)](https://travis-ci.org/errata-ai/Microsoft) ![GitHub release](https://img.shields.io/github/release/ValeLint/vale.svg) ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
+# Microsoft [![Build Status](https://travis-ci.org/errata-ai/Microsoft.svg?branch=master)](https://travis-ci.org/errata-ai/Microsoft) ![GitHub release](https://img.shields.io/github/release/errata-ai/Microsoft.svg) ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 This repository contains a [Vale-compatible](https://github.com/errata-ai/vale) implementation of the [*Microsoft Writing Style Guide*](https://docs.microsoft.com/en-us/style-guide/welcome/) ([LICENSE](https://github.com/MicrosoftDocs/microsoft-style-guide/blob/master/LICENSE)).
 
