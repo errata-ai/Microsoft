@@ -8,7 +8,7 @@ The goal is to showcase how to build and maintain a full-featured style guide fo
 
 > :exclamation: Microsoft requires Vale >= **1.0.0**. :exclamation:
 
-Download the [latest release](https://github.com/errata-ai/Microsoft/releases), copy the "Microsoft" directory onto your `StylesPath`, and include it in your configuration file:
+Download the [latest release](https://github.com/errata-ai/Microsoft/releases), copy the "Microsoft" directory to your `StylesPath`, and include it in your configuration file:
 
 ```ini
 # This goes in a file named either `.vale.ini` or `_vale.ini`.
