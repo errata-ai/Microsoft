@@ -78,7 +78,7 @@ Feature: Rules
     Then the output should contain exactly:
       """
       test.md:3:10:Microsoft.Ellipses:In general, don’t use an ellipsis.
-      test.md:5:13:Microsoft.Hypens:'officially-' doesn't need a hyphen.
+      test.md:5:13:Microsoft.Hyphens:'officially-' doesn't need a hyphen.
       test.md:7:1:Microsoft.OxfordComma:Use the Oxford comma in 'I like red, blue, green and'.
       test.md:11:10:Microsoft.Quotes:Punctuation should be inside the quotes.
       test.md:15:19:Microsoft.Semicolon:Try to simplify this sentence.
