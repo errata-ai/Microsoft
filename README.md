@@ -38,16 +38,16 @@ See [Usage](https://github.com/errata-ai/vale/#usage) for more information.
 
 ## Extension Points
 
-|   `check`    |                    Implementation(s)                   |
+|   Check    |                    Implementation(s)                   |
 |:------------:|:---------------------------------------------------:|
 | [`existence`](https://errata-ai.github.io/vale/styles/#existence)  | [`Accessibility.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Accessibility.yml), [`Adverbs.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Adverbs.yml), [`AMPM.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/AMPM.yml), [`Auto.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Auto.yml), [`Avoid.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Avoid.yml), [`Dashes.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Dashes.yml), [`DateFormat.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/DateFormat.yml), [`Ellipses.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Ellipses.yml), [`FirstPerson.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/FirstPerson.yml), [`HeadingColons.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/HeadingColons.yml), [`HeadingPunctuation.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/HeadingPunctuation.yml), [`Hyphens.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Hyphens.yml), [`OxfordComma.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/OxfordComma.yml), [`Passive.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Passive.yml), [`Quotes.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Quotes.yml) |
 | [`substitution`](https://errata-ai.github.io/vale/styles/#substitution)  | [`Backend.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Backend.yml) (POS tags), [`ComplexWords.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/ComplexWords.yml), [`Contractions.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Contractions.yml), [`Foreign.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Foreign.yml), [`Terms.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Terms.yml) |
-| [`occurrence`](https://errata-ai.github.io/vale/styles/#occurrence)  | [`SentenceLength.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/SentenceLength.yml) |
-| [`repetition`](https://errata-ai.github.io/vale/styles/#repetition)  | [`Repetition.yml`](https://github.com/ValeLint/vale/blob/master/rule/Repetition.yml) |
-| [`consistency`](https://errata-ai.github.io/vale/styles/#consistency)  | [`Spelling.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Spelling.yml) |
-| [`capitalization`](https://errata-ai.github.io/vale/styles/#capitalization)  | [`Headings.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/Headings.yml) |
-| [`readability`](https://errata-ai.github.io/vale/styles/#readability)  | [`Reading.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Reading.yml) |
-| [`conditional`](https://errata-ai.github.io/vale/styles/#conditional)  | [`UnexpandedAcronyms.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/UnexpandedAcronyms.yml) |
-| [`spelling`](https://errata-ai.github.io/vale/styles/#spelling)  | [`Spellcheck.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Spellcheck.yml) |
+| [`occurrence`](https://errata-ai.github.io/vale/styles/#occurrence)  | WIP |
+| [`repetition`](https://errata-ai.github.io/vale/styles/#repetition)  | WIP |
+| [`consistency`](https://errata-ai.github.io/vale/styles/#consistency)| WIP |
+| [`capitalization`](https://errata-ai.github.io/vale/styles/#capitalization)  | [`Headings.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Headings.yml) |
+| [`readability`](https://errata-ai.github.io/vale/styles/#readability)  | WIP |
+| [`conditional`](https://errata-ai.github.io/vale/styles/#conditional)  | [`Acronyms.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Acronyms.yml) |
+| [`spelling`](https://errata-ai.github.io/vale/styles/#spelling)  | WIP |
 
 
