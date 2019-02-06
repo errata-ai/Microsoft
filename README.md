@@ -33,7 +33,7 @@ See [Usage](https://github.com/errata-ai/vale/#usage) for more information.
   <dd>The individual unit tests. Each directory should be named after a rule found in <code>/Microsoft</code> and include its own <code>.vale.ini</code> file that isolates its target rule.</dd>
 
   <dt><a href="https://github.com/errata-ai/Microsoft/tree/master/features"><code>/features</code></a></dt>
-  <dd>The <a href="https://github.com/cucumber/cucumber/wiki/Step-Definitions">Cucumber Step Definitions</a> we use to test our fixtures. Essentially, we use the <a href="https://github.com/cucumber/aruba">aruba</a> framework to test Vale's output after running it on each of our fixture directories.</dd>
+  <dd>The <a href="https://docs.cucumber.io/cucumber/step-definitions/">Cucumber Step Definitions</a> we use to test our fixtures. Essentially, we use the <a href="https://github.com/cucumber/aruba">aruba</a> framework to test Vale's output after running it on each of our fixture directories.</dd>
 </dl>
 
 ## Extension Points
