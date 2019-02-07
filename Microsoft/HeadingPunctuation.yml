@@ -5,4 +5,4 @@ nonword: true
 level: warning
 scope: heading
 tokens:
-  - '\w+[.?!]'
+  - '\w+[.?!-]'
