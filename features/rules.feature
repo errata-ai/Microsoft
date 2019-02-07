@@ -97,9 +97,9 @@ Feature: Rules
     When I test "Headings"
     Then the output should contain exactly:
       """
-      test.md:1:7:Microsoft.HeaderColons:Capitalize ': m'."
-      test.md:5:3:Microsoft.Headers:'This is a Heading' should use sentence-style capitalization.
-      test.md:7:11:Microsoft.HeaderPunctuation:Don’t use punctuation in headings.
+      test.md:1:7:Microsoft.HeadingColons:Capitalize ': m'."
+      test.md:5:3:Microsoft.Headings:'This is a Heading' should use sentence-style capitalization.
+      test.md:7:11:Microsoft.HeadingPunctuation:Don’t use punctuation in headings.
       """
 
   Scenario: Passive voice
