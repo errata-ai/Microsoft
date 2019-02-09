@@ -73,11 +73,28 @@ Feature: Rules
       test.md:3:42:Microsoft.Dashes:Remove the spaces around '—'.
       """
 
+  Scenario: Use of units
+    When I test "Units"
+    Then the output should contain exactly:
+      """
+      test.md:3:18:Microsoft.Units:Use a numeral plus the units.
+      """
+
+  Scenario: Use of numbers
+    When I test "Numbers"
+    Then the output should contain exactly:
+      """
+      test.md:1:15:Microsoft.Ranges:In most cases, use from and through to describe a range of numbers.
+      test.md:4:48:Microsoft.RangeTime:Use 'to' instead of a dash in 'AM - 2:00 PM'.
+      """
+
   Scenario: Date Formatting
     When I test "DateFormat"
     Then the output should contain exactly:
       """
       test.md:3:6:Microsoft.DateFormat:Use 'July 31, 2016' format, not '12 Mar 2016'.
+      test.md:5:18:Microsoft.DateNumbers:Don’t use ordinal numbers for dates.
+      test.md:7:14:Microsoft.DateOrder:Always spell out the name of the month.
       """
 
   Scenario: Use of punctuation
