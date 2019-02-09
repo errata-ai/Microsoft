@@ -15,6 +15,13 @@ Feature: Rules
       test.md:5:66:Microsoft.Acronyms:'DAFB' has no definition.
       """
 
+  Scenario: Use of 'he/she' and the like
+    When I test "Gender"
+    Then the output should contain exactly:
+      """
+      test.md:3:6:Microsoft.Gender:Don’t use 'he/she'.
+      """
+
   Scenario: Use of AM and PM
     When I test "AMPM"
     Then the output should contain exactly:
