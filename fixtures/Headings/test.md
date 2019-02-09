@@ -5,3 +5,5 @@
 # This is a Heading
 
 # Another one.
+
+# Accepting a JSON response
