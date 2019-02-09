@@ -80,6 +80,14 @@ Feature: Rules
       test.md:3:18:Microsoft.Units:Use a numeral plus the units.
       """
 
+  Scenario: URL grammar
+    When I test "URL"
+    Then the output should contain exactly:
+      """
+      test.md:1:11:Microsoft.URLFormat:Use 'URL of' instead of 'URL for'.
+      test.md:3:8:Microsoft.URLFormat:Use 'a URL' instead of 'an URL'.
+      """
+
   Scenario: Use of numbers
     When I test "Numbers"
     Then the output should contain exactly:
