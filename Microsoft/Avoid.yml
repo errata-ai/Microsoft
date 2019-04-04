@@ -4,7 +4,6 @@ link: https://docs.microsoft.com/en-us/style-guide
 ignorecase: true
 level: error
 tokens:
-  - abortion
   - and so on
   - and/or
   - app developer
@@ -15,3 +14,4 @@ tokens:
   - as well as
   - ask
   - backbone
+  - abortion
