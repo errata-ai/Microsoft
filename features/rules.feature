@@ -54,9 +54,14 @@ Feature: Rules
     When I test "Backend"
     Then the output should contain exactly:
       """
-      test.md:3:7:Microsoft.Backend:Use 'back end' or 'back-end' instead of 'backend'
-      test.md:5:7:Microsoft.Backend:Use 'back-end' instead of 'back end'
-      test.md:11:20:Microsoft.Backend:Use 'back end' instead of 'back-end'
+      test.md:1:7:Microsoft.Backend:Use 'back end' or 'back-end' instead of 'backend'
+      test.md:3:7:Microsoft.Backend:Use 'back-end' instead of 'back end'
+      test.md:9:20:Microsoft.Backend:Use 'back end' instead of 'back-end'
+      test.md:11:5:Microsoft.Backend:Use 'back-end' instead of 'back end'
+      test.md:13:5:Microsoft.Backend:Use 'back end' instead of 'back-end'
+      test.md:15:24:Microsoft.Backend:Use 'back-end' instead of 'back end'
+      test.md:15:50:Microsoft.Backend:Use 'back-end' instead of 'back end'
+      test.md:19:17:Microsoft.Backend:Use 'back-end' instead of 'back end'
       """
 
   Scenario: Use of contractions

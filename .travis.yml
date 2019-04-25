@@ -13,3 +13,12 @@ before_script:
   - yamllint -c '.yamllint.yml' Microsoft
 script:
   - cucumber
+after_script:
+  - zip -r Microsoft.zip Microsoft -x "*.DS_Store"
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  file: Microsoft.zip
+  skip_cleanup: true
+  on:
+    tags: true
