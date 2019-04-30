@@ -5,4 +5,5 @@ ignorecase: true
 level: warning
 nonword: true
 tokens:
-  - (?:I\s|\bme\b)
+  - (?:^|\s)I\s
+  - \bme\b
