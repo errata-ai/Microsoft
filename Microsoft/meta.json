@@ -4,6 +4,7 @@
   "email": "support@errata.ai",
   "lang": "en",
   "url": "https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip",
+  "feed": "https://github.com/errata-ai/Microsoft/releases.atom",
   "license": "MIT",
   "name": "Microsoft",
   "sources": [
@@ -12,5 +13,5 @@
   ],
   "vale_version": ">=1.0.0",
   "coverage": 0.0,
-  "version": "0.3.1",
+  "version": "0.3.0"
 }
