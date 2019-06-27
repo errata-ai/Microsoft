@@ -12,6 +12,5 @@
     "https://github.com/MicrosoftDocs/microsoft-style-guide/blob/master/LICENSE"
   ],
   "vale_version": ">=1.0.0",
-  "coverage": 0.0,
-  "version": "0.3.0"
+  "coverage": 0.0
 }
