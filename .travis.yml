@@ -13,7 +13,6 @@ before_script:
   - yamllint -c '.yamllint.yml' Microsoft
 script:
   - cucumber
-after_script:
   - zip -r Microsoft.zip Microsoft -x "*.DS_Store"
 deploy:
   provider: releases
