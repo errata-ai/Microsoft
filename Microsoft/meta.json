@@ -5,6 +5,7 @@
   "lang": "en",
   "url": "https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip",
   "feed": "https://github.com/errata-ai/Microsoft/releases.atom",
+  "issues": "https://github.com/errata-ai/Microsoft/issues/new",
   "license": "MIT",
   "name": "Microsoft",
   "sources": [
