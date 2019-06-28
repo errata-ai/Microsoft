@@ -153,5 +153,5 @@ Feature: Rules
     When I test "Sentences"
     Then the output should contain exactly:
       """
-      test.md:5:22:Microsoft.Spacing:'. T' should have one space.
+      test.md:5:21:Microsoft.Spacing:'y. T' should have one space.
       """
