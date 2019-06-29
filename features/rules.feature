@@ -47,7 +47,7 @@ Feature: Rules
       test.md:7:8:Microsoft.Adverbs:Consider removing 'very'.
       test.md:9:1:Microsoft.FirstPerson:Use first person sparingly ('I').
       test.md:9:27:Microsoft.Wordiness:Consider using "enough" instead of "adequate number".
-      test.md:11:9:Microsoft.Vocab:Verify your use of 'ensure'.
+      test.md:11:9:Microsoft.Vocab:Verify your use of 'ensure' with the A-Z word list.
       test.md:17:1:Microsoft.FirstPerson:Use first person sparingly ('I').
       test.md:19:13:Microsoft.FirstPerson:Use first person sparingly ('me').
       """
