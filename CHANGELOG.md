@@ -1,16 +1,39 @@
 # Change Log
 
-## [v0.3.1](https://github.com/errata-ai/Microsoft/tree/v0.3.1) (2019-04-30)
-[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.3.0...v0.3.1)
+## [v0.3.4](https://github.com/errata-ai/Microsoft/tree/v0.3.4) (2019-06-28)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.3.3...v0.3.4)
+
+**Fixed bugs:**
+
+- Microsoft.Spacing err on .NET [\#14](https://github.com/errata-ai/Microsoft/issues/14)
+
+## [v0.3.3](https://github.com/errata-ai/Microsoft/tree/v0.3.3) (2019-06-27)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.3.2...v0.3.3)
+
+**Fixed bugs:**
+
+- Datenumbers.yml flags all instances of the word 'may' [\#13](https://github.com/errata-ai/Microsoft/issues/13)
 
 **Closed issues:**
 
+- Should we change this? [\#5](https://github.com/errata-ai/Microsoft/issues/5)
+
+## [v0.3.2](https://github.com/errata-ai/Microsoft/tree/v0.3.2) (2019-06-03)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.3.1...v0.3.2)
+
+## [v0.3.1](https://github.com/errata-ai/Microsoft/tree/v0.3.1) (2019-04-30)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.3.0...v0.3.1)
+
+**Fixed bugs:**
+
 - First person rule seems to be triggered by "API" [\#11](https://github.com/errata-ai/Microsoft/issues/11)
+
+**Closed issues:**
+
+- Some rules don't seem to work as expected [\#10](https://github.com/errata-ai/Microsoft/issues/10)
 
 ## [v0.3.0](https://github.com/errata-ai/Microsoft/tree/v0.3.0) (2019-04-12)
 [Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.2.0...v0.3.0)
-
-- Some rules don't seem to work as expected [\#10](https://github.com/errata-ai/Microsoft/issues/10)
 
 ## [v0.2.0](https://github.com/errata-ai/Microsoft/tree/v0.2.0) (2019-03-30)
 [Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.1.0...v0.2.0)
@@ -20,7 +43,7 @@
 - fix heading punctuation rule [\#8](https://github.com/errata-ai/Microsoft/pull/8) ([polarweasel](https://github.com/polarweasel))
 
 ## [v0.1.0](https://github.com/errata-ai/Microsoft/tree/v0.1.0) (2019-02-06)
-**Closed issues:**
+**Fixed bugs:**
 
 - The terms are case insensitive. [\#1](https://github.com/errata-ai/Microsoft/issues/1)
 
