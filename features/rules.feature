@@ -99,7 +99,7 @@ Feature: Rules
     When I test "Numbers"
     Then the output should contain exactly:
       """
-      test.md:1:15:Microsoft.Ranges:In most cases, use from and through to describe a range of numbers.
+      test.md:1:15:Microsoft.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
       test.md:4:48:Microsoft.RangeTime:Use 'to' instead of a dash in 'AM - 2:00 PM'.
       """
 
