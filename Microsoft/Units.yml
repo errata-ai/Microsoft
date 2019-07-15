@@ -1,14 +1,17 @@
 extends: existence
-message: Use a numeral plus the units.
-link: https://docs.microsoft.com/en-us/style-guide/numbers
+message: "Don't spell out the number in '%s'."
+link: https://docs.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/term-collections/units-of-measure-terms
 nonword: true
 level: error
 raw:
   - '\b[a-zA-Z]+\s'
 tokens:
-  - centimeters
-  - grams
+  - '(?:centi|milli)?meters'
+  - '(?:kilo)?grams'
+  - '(?:kilo)?meters'
+  - '(?:mega)?pixels'
+  - cm
   - inches
-  - minutes
-  - pixels
+  - lb
+  - miles
   - pounds

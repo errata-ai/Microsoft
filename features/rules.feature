@@ -84,7 +84,8 @@ Feature: Rules
     When I test "Units"
     Then the output should contain exactly:
       """
-      test.md:3:18:Microsoft.Units:Use a numeral plus the units.
+      test.md:5:17:Microsoft.Units:Don't spell out the number in 'five pounds'.
+      test.md:7:8:Microsoft.Units:Don't spell out the number in 'six meters'.
       """
 
   Scenario: URL grammar
