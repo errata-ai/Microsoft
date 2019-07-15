@@ -1,5 +1,15 @@
 # Change Log
 
+## [v0.4.1](https://github.com/errata-ai/Microsoft/tree/v0.4.1) (2019-07-15)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.4.0...v0.4.1)
+
+**Fixed bugs:**
+
+- Microsoft.Units error on Minutes [\#17](https://github.com/errata-ai/Microsoft/issues/17)
+
+## [v0.4.0](https://github.com/errata-ai/Microsoft/tree/v0.4.0) (2019-07-03)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.3.4...v0.4.0)
+
 ## [v0.3.4](https://github.com/errata-ai/Microsoft/tree/v0.3.4) (2019-06-28)
 [Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.3.3...v0.3.4)
 
