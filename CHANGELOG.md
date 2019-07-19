@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.4.2](https://github.com/errata-ai/Microsoft/tree/v0.4.2) (2019-07-18)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.4.1...v0.4.2)
+
+**Fixed bugs:**
+
+- Headings.yaml seems to flag any heading that contains punctuation [\#18](https://github.com/errata-ai/Microsoft/issues/18)
+
 ## [v0.4.1](https://github.com/errata-ai/Microsoft/tree/v0.4.1) (2019-07-15)
 [Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.4.0...v0.4.1)
 
