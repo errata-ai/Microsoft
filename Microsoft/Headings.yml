@@ -4,6 +4,8 @@ link: 'https://docs.microsoft.com/en-us/style-guide/capitalization'
 level: suggestion
 scope: heading
 match: $sentence
+indicators:
+  - ':'
 exceptions:
   - Azure
   - CLI
