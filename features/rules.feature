@@ -86,6 +86,7 @@ Feature: Rules
       """
       test.md:5:17:Microsoft.Units:Don't spell out the number in 'five pounds'.
       test.md:7:8:Microsoft.Units:Don't spell out the number in 'six meters'.
+      test.md:11:8:Microsoft.Units:Don't spell out the number in 'ten cm'.
       """
 
   Scenario: URL grammar
