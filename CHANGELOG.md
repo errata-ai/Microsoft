@@ -1,6 +1,13 @@
 # Change Log
 
-## [v0.4.2](https://github.com/errata-ai/Microsoft/tree/v0.4.2) (2019-07-18)
+## [v0.4.3](https://github.com/errata-ai/Microsoft/tree/v0.4.3) (2019-07-23)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.4.2...v0.4.3)
+
+**Fixed bugs:**
+
+- Get "Don't spell out the number 'a cm'" when using the word "cmdlet" [\#19](https://github.com/errata-ai/Microsoft/issues/19)
+
+## [v0.4.2](https://github.com/errata-ai/Microsoft/tree/v0.4.2) (2019-07-19)
 [Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.4.1...v0.4.2)
 
 **Fixed bugs:**
