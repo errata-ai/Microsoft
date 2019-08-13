@@ -1,5 +1,16 @@
 # Change Log
 
+## [v0.5.0](https://github.com/errata-ai/Microsoft/tree/v0.5.0) (2019-08-13)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.4.3...v0.5.0)
+
+**Implemented enhancements:**
+
+- FirstPerson.yml is missing a check for "mine", "we", "ours" [\#12](https://github.com/errata-ai/Microsoft/issues/12)
+
+**Merged pull requests:**
+
+- Update ComplexWords.yml [\#22](https://github.com/errata-ai/Microsoft/pull/22) ([esmerel](https://github.com/esmerel))
+
 ## [v0.4.3](https://github.com/errata-ai/Microsoft/tree/v0.4.3) (2019-07-23)
 [Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.4.2...v0.4.3)
 
