@@ -1,11 +1,14 @@
 language: python
 cache: bundler
 python:
-  - 3.6
+  - "3.6"
 install:
-  - eval "$(gimme 1.8)"
-  - go get github.com/ValeLint/vale
+  # Install the latest release of Vale:
+  - curl -sL https://install.goreleaser.com/github.com/ValeLint/vale.sh | bash
+  - export PATH=./bin:"$PATH"
+
   - bundle install --jobs=3
+
   - pip install yamllint
   - pip install markdata
   - pip install pyyaml
