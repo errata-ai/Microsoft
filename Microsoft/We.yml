@@ -5,3 +5,7 @@ level: warning
 ignorecase: true
 tokens:
   - we
+  - we'(?:ve|re)
+  - ours?
+  - us
+  - let's
