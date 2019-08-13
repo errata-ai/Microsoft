@@ -7,3 +7,8 @@ nonword: true
 tokens:
   - (?:^|\s)I\s
   - \bme\b
+  - \bmine\b
+  - \bours?\b
+  - \bus\b
+  - \bwe'(?:ve|re)\b
+  - \bwe\b
