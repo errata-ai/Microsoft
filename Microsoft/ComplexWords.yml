@@ -107,7 +107,6 @@ swap:
   provide: "'give' or 'offer'"
   purchase: "'buy'"
   relocate: "'move'"
-  request: "'ask'"
   solicit: "'request'"
   state-of-the-art: "'latest'"
   subsequent: "'later' or 'next'"
