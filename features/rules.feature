@@ -50,6 +50,14 @@ Feature: Rules
       test.md:11:9:Microsoft.Vocab:Verify your use of 'ensure' with the A-Z word list.
       test.md:17:1:Microsoft.FirstPerson:Use first person sparingly ('I').
       test.md:19:13:Microsoft.FirstPerson:Use first person sparingly ('me').
+      test.md:21:1:Microsoft.FirstPerson:Use first person sparingly ('I'm').
+      test.md:23:1:Microsoft.We:Try to avoid using first-person plural like 'We'.
+      test.md:25:9:Microsoft.FirstPerson:Use first person sparingly ('my').
+      test.md:27:14:Microsoft.FirstPerson:Use first person sparingly ('mine').
+      test.md:29:17:Microsoft.We:Try to avoid using first-person plural like 'us'.
+      test.md:31:1:Microsoft.We:Try to avoid using first-person plural like 'Let's'.
+      test.md:33:1:Microsoft.FirstPerson:Use first person sparingly ('I,').
+      test.md:33:21:Microsoft.We:Try to avoid using first-person plural like 'our'.
       """
 
   Scenario: Backend vs. Back-end
