@@ -1,6 +1,6 @@
 # Change Log
 
-## [v0.5.0](https://github.com/errata-ai/Microsoft/tree/v0.5.0) (2019-08-13)
+## [v0.5.0](https://github.com/errata-ai/Microsoft/tree/v0.5.0) (2019-08-14)
 [Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.4.3...v0.5.0)
 
 **Implemented enhancements:**
@@ -9,6 +9,7 @@
 
 **Merged pull requests:**
 
+- Normalize first person and first-person plural [\#23](https://github.com/errata-ai/Microsoft/pull/23) ([markekraus](https://github.com/markekraus))
 - Update ComplexWords.yml [\#22](https://github.com/errata-ai/Microsoft/pull/22) ([esmerel](https://github.com/esmerel))
 
 ## [v0.4.3](https://github.com/errata-ai/Microsoft/tree/v0.4.3) (2019-07-23)
