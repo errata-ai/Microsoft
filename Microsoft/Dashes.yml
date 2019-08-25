@@ -4,5 +4,10 @@ link: https://docs.microsoft.com/en-us/style-guide/punctuation/dashes-hyphens/em
 ignorecase: true
 nonword: true
 level: error
+action:
+  name: edit
+  params:
+    - remove
+    - ' '
 tokens:
   - '\s[—–]\s'

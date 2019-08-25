@@ -5,7 +5,8 @@ link: 'https://docs.microsoft.com/en-us/style-guide/a-z-word-list-term-collectio
 # Use 'back end' (noun) or 'back-end' (adj).
 pos: 'back-end/NN|backend/(?:JJ|NN)|back/\w+ end/JJ|back/(?:JJ|RB) end/\w+'
 ignorecase: true
+action:
+  name: replace
 swap:
   back-end: "'back end'"
   back end: "'back-end'"
-  backend: "'back end' or 'back-end'"

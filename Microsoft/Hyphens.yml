@@ -4,5 +4,11 @@ link: https://docs.microsoft.com/en-us/style-guide/punctuation/dashes-hyphens/hy
 level: warning
 ignorecase: false
 nonword: true
+action:
+  name: edit
+  params:
+    - replace
+    - '-'
+    - ' '
 tokens:
   - '\s[^\s-]+ly-'

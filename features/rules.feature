@@ -46,7 +46,7 @@ Feature: Rules
       test.md:5:34:Microsoft.ComplexWords:Consider using 'plenty' instead of 'abundance'
       test.md:7:8:Microsoft.Adverbs:Consider removing 'very'.
       test.md:9:1:Microsoft.FirstPerson:Use first person sparingly ('I').
-      test.md:9:27:Microsoft.Wordiness:Consider using "enough" instead of "adequate number".
+      test.md:9:27:Microsoft.Wordiness:Consider using 'enough' instead of 'adequate number of'.
       test.md:11:9:Microsoft.Vocab:Verify your use of 'ensure' with the A-Z word list.
       test.md:17:1:Microsoft.FirstPerson:Use first person sparingly ('I').
       test.md:19:13:Microsoft.FirstPerson:Use first person sparingly ('me').
@@ -64,7 +64,6 @@ Feature: Rules
     When I test "Backend"
     Then the output should contain exactly:
       """
-      test.md:1:7:Microsoft.Backend:Use 'back end' or 'back-end' instead of 'backend'
       test.md:3:7:Microsoft.Backend:Use 'back-end' instead of 'back end'
       test.md:9:20:Microsoft.Backend:Use 'back end' instead of 'back-end'
       test.md:11:5:Microsoft.Backend:Use 'back-end' instead of 'back end'

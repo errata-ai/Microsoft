@@ -1,15 +1,17 @@
 extends: substitution
-message: 'Consider using "%s" instead of "%s".'
+message: "Consider using '%s' instead of '%s'."
 link: https://docs.microsoft.com/en-us/style-guide/word-choice/use-simple-words-concise-sentences
 ignorecase: true
 level: warning
+action:
+  name: replace
 swap:
   (?:give|gave) rise to: lead to
   (?:previous|prior) to: before
   a (?:large)? majority of: most
   a (?:large)? number of: many
   a myriad of: myriad
-  adequate number: enough
+  adequate number of: enough
   adversely impact: hurt
   all across: across
   all of a sudden: suddenly
@@ -37,7 +39,7 @@ swap:
   basic necessity: necessity
   because of the fact that: because
   came to a realization: realized
-  came to an abrupt end: end[ed] abruptly
+  came to an abrupt end: ended abruptly
   carry out an evaluation of: evaluate
   close down: close
   closed down: closed
@@ -62,7 +64,7 @@ swap:
   fell down: fell
   for the duration of: during
   gather together: gather
-  has the ability: can
+  has the ability to: can
   has the capacity to: can
   has the opportunity to: could
   hold a meeting: meet
@@ -114,7 +116,5 @@ swap:
   until such time as: until
   used for fuel purposes: used for fuel
   whether or not: whether
-  with reference to: about
   with regard to: regarding
-  with respect to: about or on
   with the exception of: except for
