@@ -1,6 +1,6 @@
 extends: existence
 message: "Use the Oxford comma in '%s'."
-link: 'https://docs.microsoft.com/en-us/style-guide/punctuation/commas'
+link: https://docs.microsoft.com/en-us/style-guide/punctuation/commas
 scope: sentence
 level: warning
 tokens:

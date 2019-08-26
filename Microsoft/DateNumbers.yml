@@ -1,5 +1,5 @@
 extends: existence
-message: Don’t use ordinal numbers for dates.
+message: "Don't use ordinal numbers for dates."
 link: https://docs.microsoft.com/en-us/style-guide/numbers#numbers-in-dates
 level: error
 nonword: true

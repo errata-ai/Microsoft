@@ -1,6 +1,6 @@
 extends: existence
-message: "In general, don’t hyphenate '%s'."
-link: 'https://docs.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/a/auto'
+message: "In general, don't hyphenate '%s'."
+link: https://docs.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/a/auto
 ignorecase: true
 level: error
 action:

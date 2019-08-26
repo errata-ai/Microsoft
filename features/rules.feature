@@ -4,8 +4,8 @@ Feature: Rules
     When I test "Accessibility"
     Then the output should contain exactly:
       """
-      test.md:3:110:Microsoft.Accessibility:Don’t use language ('able-bodied') that defines people by their disability.
-      test.md:5:24:Microsoft.Accessibility:Don’t use language ('crippled') that defines people by their disability.
+test.md:3:110:Microsoft.Accessibility:Don't use language (such as 'able-bodied') that defines people by their disability.
+      test.md:5:24:Microsoft.Accessibility:Don't use language (such as 'crippled') that defines people by their disability.
       """
 
   Scenario: Acronym definitions
@@ -19,7 +19,7 @@ Feature: Rules
     When I test "Gender"
     Then the output should contain exactly:
       """
-      test.md:3:6:Microsoft.Gender:Don’t use 'he/she'.
+      test.md:3:6:Microsoft.Gender:Don't use 'he/she'.
       """
 
   Scenario: Use of AM and PM
@@ -34,7 +34,7 @@ Feature: Rules
     When I test "Auto"
     Then the output should contain exactly:
       """
-      test.md:3:14:Microsoft.Auto:In general, don’t hyphenate 'auto-scale'.
+      test.md:3:14:Microsoft.Auto:In general, don't hyphenate 'auto-scale'.
       """
 
   Scenario: Usage of terms
@@ -43,41 +43,43 @@ Feature: Rules
       """
       test.md:3:25:Microsoft.Avoid:Don't use 'abortion'.
       test.md:5:9:Microsoft.Avoid:Don't use 'and/or'.
-      test.md:5:34:Microsoft.ComplexWords:Consider using 'plenty' instead of 'abundance'
+      test.md:5:34:Microsoft.ComplexWords:Consider using 'plenty' instead of 'abundance'.
       test.md:7:8:Microsoft.Adverbs:Consider removing 'very'.
-      test.md:9:1:Microsoft.FirstPerson:Use first person sparingly ('I').
+      test.md:9:1:Microsoft.FirstPerson:Use first person (such as 'I') sparingly.
       test.md:9:27:Microsoft.Wordiness:Consider using 'enough' instead of 'adequate number of'.
       test.md:11:9:Microsoft.Vocab:Verify your use of 'ensure' with the A-Z word list.
-      test.md:17:1:Microsoft.FirstPerson:Use first person sparingly ('I').
-      test.md:19:13:Microsoft.FirstPerson:Use first person sparingly ('me').
-      test.md:21:1:Microsoft.FirstPerson:Use first person sparingly ('I'm').
+      test.md:17:1:Microsoft.FirstPerson:Use first person (such as 'I') sparingly.
+      test.md:19:13:Microsoft.FirstPerson:Use first person (such as 'me') sparingly.
+      test.md:21:1:Microsoft.FirstPerson:Use first person (such as 'I'm') sparingly.
       test.md:23:1:Microsoft.We:Try to avoid using first-person plural like 'We'.
-      test.md:25:9:Microsoft.FirstPerson:Use first person sparingly ('my').
-      test.md:27:14:Microsoft.FirstPerson:Use first person sparingly ('mine').
+      test.md:25:9:Microsoft.FirstPerson:Use first person (such as 'my') sparingly.
+      test.md:27:14:Microsoft.FirstPerson:Use first person (such as 'mine') sparingly.
       test.md:29:17:Microsoft.We:Try to avoid using first-person plural like 'us'.
       test.md:31:1:Microsoft.We:Try to avoid using first-person plural like 'Let's'.
-      test.md:33:1:Microsoft.FirstPerson:Use first person sparingly ('I,').
+      test.md:33:1:Microsoft.FirstPerson:Use first person (such as 'I,') sparingly.
       test.md:33:21:Microsoft.We:Try to avoid using first-person plural like 'our'.
+      test.md:35:1:Microsoft.We:Try to avoid using first-person plural like 'We'.
+      test.md:35:8:Microsoft.ComplexWords:Consider using 'carry out|do' instead of 'accomplish'.
       """
 
   Scenario: Backend vs. Back-end
     When I test "Backend"
     Then the output should contain exactly:
       """
-      test.md:3:7:Microsoft.Backend:Use 'back-end' instead of 'back end'
-      test.md:9:20:Microsoft.Backend:Use 'back end' instead of 'back-end'
-      test.md:11:5:Microsoft.Backend:Use 'back-end' instead of 'back end'
-      test.md:13:5:Microsoft.Backend:Use 'back end' instead of 'back-end'
-      test.md:15:24:Microsoft.Backend:Use 'back-end' instead of 'back end'
-      test.md:15:50:Microsoft.Backend:Use 'back-end' instead of 'back end'
-      test.md:19:17:Microsoft.Backend:Use 'back-end' instead of 'back end'
+      test.md:3:7:Microsoft.Backend:Use 'back-end' instead of 'back end'.
+      test.md:9:20:Microsoft.Backend:Use 'back end' instead of 'back-end'.
+      test.md:11:5:Microsoft.Backend:Use 'back-end' instead of 'back end'.
+      test.md:13:5:Microsoft.Backend:Use 'back end' instead of 'back-end'.
+      test.md:15:24:Microsoft.Backend:Use 'back-end' instead of 'back end'.
+      test.md:15:50:Microsoft.Backend:Use 'back-end' instead of 'back end'.
+      test.md:19:17:Microsoft.Backend:Use 'back-end' instead of 'back end'.
       """
 
   Scenario: Use of contractions
     When I test "Contractions"
     Then the output should contain exactly:
       """
-      test.md:3:1:Microsoft.Contractions:Use \"it's\" instead of \"It is\".
+      test.md:3:1:Microsoft.Contractions:Use 'it's' instead of 'It is'.
       """
 
   Scenario: Use of dashes
@@ -117,7 +119,7 @@ Feature: Rules
     Then the output should contain exactly:
       """
       test.md:3:6:Microsoft.DateFormat:Use 'July 31, 2016' format, not '12 Mar 2016'.
-      test.md:5:18:Microsoft.DateNumbers:Don’t use ordinal numbers for dates.
+      test.md:5:18:Microsoft.DateNumbers:Don't use ordinal numbers for dates.
       test.md:7:14:Microsoft.DateOrder:Always spell out the name of the month.
       """
 
@@ -125,7 +127,7 @@ Feature: Rules
     When I test "Punctuation"
     Then the output should contain exactly:
       """
-      test.md:3:10:Microsoft.Ellipses:In general, don’t use an ellipsis.
+      test.md:3:10:Microsoft.Ellipses:In general, don't use an ellipsis.
       test.md:5:13:Microsoft.Hyphens:'officially-' doesn't need a hyphen.
       test.md:7:1:Microsoft.OxfordComma:Use the Oxford comma in 'I like red, blue, green and'.
       test.md:11:10:Microsoft.Quotes:Punctuation should be inside the quotes.
@@ -138,16 +140,16 @@ Feature: Rules
     When I test "Foreign"
     Then the output should contain exactly:
       """
-      test.md:3:31:Microsoft.Foreign:Use \"that is\" instead of \"i.e.,\".
+      test.md:3:31:Microsoft.Foreign:Use 'that is' instead of 'i.e.,'.
       """
 
   Scenario: Heading styles
     When I test "Headings"
     Then the output should contain exactly:
       """
-      test.md:1:7:Microsoft.HeadingColons:Capitalize ': m'."
+      test.md:1:7:Microsoft.HeadingColons:Capitalize ': m'.
       test.md:5:3:Microsoft.Headings:'This is a Heading' should use sentence-style capitalization.
-      test.md:7:13:Microsoft.HeadingPunctuation:Don’t use end punctuation in headings.
+      test.md:7:13:Microsoft.HeadingPunctuation:Don't use end punctuation in headings.
       test.md:9:15:Microsoft.HeadingAcronyms:Avoid using acronyms in a title or heading.
       """
 

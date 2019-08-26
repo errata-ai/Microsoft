@@ -1,6 +1,6 @@
 extends: conditional
 message: "'%s' has no definition."
-link: 'https://docs.microsoft.com/en-us/style-guide/acronyms'
+link: https://docs.microsoft.com/en-us/style-guide/acronyms
 level: suggestion
 ignorecase: false
 # Ensures that the existence of 'first' implies the existence of 'second'.
