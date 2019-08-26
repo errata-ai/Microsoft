@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.6.0](https://github.com/errata-ai/Microsoft/tree/v0.6.0) (2019-08-26)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.5.0...v0.6.0)
+
+**Merged pull requests:**
+
+- Add `beta` and `sample` to the list [\#24](https://github.com/errata-ai/Microsoft/pull/24) ([gaurav-nelson](https://github.com/gaurav-nelson))
+
 ## [v0.5.0](https://github.com/errata-ai/Microsoft/tree/v0.5.0) (2019-08-14)
 [Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.4.3...v0.5.0)
 
