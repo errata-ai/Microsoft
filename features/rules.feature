@@ -4,7 +4,7 @@ Feature: Rules
     When I test "Accessibility"
     Then the output should contain exactly:
       """
-test.md:3:110:Microsoft.Accessibility:Don't use language (such as 'able-bodied') that defines people by their disability.
+      test.md:3:110:Microsoft.Accessibility:Don't use language (such as 'able-bodied') that defines people by their disability.
       test.md:5:24:Microsoft.Accessibility:Don't use language (such as 'crippled') that defines people by their disability.
       """
 
@@ -46,7 +46,7 @@ test.md:3:110:Microsoft.Accessibility:Don't use language (such as 'able-bodied')
       test.md:5:34:Microsoft.ComplexWords:Consider using 'plenty' instead of 'abundance'.
       test.md:7:8:Microsoft.Adverbs:Consider removing 'very'.
       test.md:9:1:Microsoft.FirstPerson:Use first person (such as 'I') sparingly.
-      test.md:9:27:Microsoft.Wordiness:Consider using 'enough' instead of 'adequate number of'.
+      test.md:9:27:Microsoft.Wordiness:Consider using 'enough' instead of 'an adequate number of'.
       test.md:11:9:Microsoft.Vocab:Verify your use of 'ensure' with the A-Z word list.
       test.md:17:1:Microsoft.FirstPerson:Use first person (such as 'I') sparingly.
       test.md:19:13:Microsoft.FirstPerson:Use first person (such as 'me') sparingly.
