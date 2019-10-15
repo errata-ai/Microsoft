@@ -119,8 +119,9 @@ Feature: Rules
     Then the output should contain exactly:
       """
       test.md:3:6:Microsoft.DateFormat:Use 'July 31, 2016' format, not '12 Mar 2016'.
-      test.md:5:18:Microsoft.DateNumbers:Don't use ordinal numbers for dates.
+      test.md:5:16:Microsoft.DateNumbers:Don't use ordinal numbers for dates.
       test.md:7:14:Microsoft.DateOrder:Always spell out the name of the month.
+      test.md:13:7:Microsoft.DateNumbers:Don't use ordinal numbers for dates.
       """
 
   Scenario: Use of punctuation
