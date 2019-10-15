@@ -1,5 +1,15 @@
 # Change Log
 
+## [v0.6.2](https://github.com/errata-ai/Microsoft/tree/v0.6.2) (2019-10-15)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.6.1...v0.6.2)
+
+**Fixed bugs:**
+
+- Ordinal Date false capture bug [\#25](https://github.com/errata-ai/Microsoft/issues/25)
+
+## [v0.6.1](https://github.com/errata-ai/Microsoft/tree/v0.6.1) (2019-08-27)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.6.0...v0.6.1)
+
 ## [v0.6.0](https://github.com/errata-ai/Microsoft/tree/v0.6.0) (2019-08-26)
 [Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.5.0...v0.6.0)
 
