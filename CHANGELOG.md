@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.7.0](https://github.com/errata-ai/Microsoft/tree/v0.7.0) (2020-01-06)
+[Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.6.2...v0.7.0)
+
+**Merged pull requests:**
+
+- Esmerel patch 2 [\#28](https://github.com/errata-ai/Microsoft/pull/28) ([esmerel](https://github.com/esmerel))
+
 ## [v0.6.2](https://github.com/errata-ai/Microsoft/tree/v0.6.2) (2019-10-15)
 [Full Changelog](https://github.com/errata-ai/Microsoft/compare/v0.6.1...v0.6.2)
 
