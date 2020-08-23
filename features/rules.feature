@@ -45,10 +45,10 @@ Feature: Rules
       test.md:5:9:Microsoft.Avoid:Don't use 'and/or'.
       test.md:5:34:Microsoft.ComplexWords:Consider using 'plenty' instead of 'abundance'.
       test.md:7:8:Microsoft.Adverbs:Consider removing 'very'.
-      test.md:9:1:Microsoft.FirstPerson:Use first person (such as 'I') sparingly.
+      test.md:9:1:Microsoft.FirstPerson:Use first person (such as 'I ') sparingly.
       test.md:9:27:Microsoft.Wordiness:Consider using 'enough' instead of 'an adequate number of'.
       test.md:11:9:Microsoft.Vocab:Verify your use of 'ensure' with the A-Z word list.
-      test.md:17:1:Microsoft.FirstPerson:Use first person (such as 'I') sparingly.
+      test.md:17:1:Microsoft.FirstPerson:Use first person (such as 'I ') sparingly.
       test.md:19:13:Microsoft.FirstPerson:Use first person (such as 'me') sparingly.
       test.md:21:1:Microsoft.FirstPerson:Use first person (such as 'I'm') sparingly.
       test.md:23:1:Microsoft.We:Try to avoid using first-person plural like 'We'.
@@ -56,10 +56,10 @@ Feature: Rules
       test.md:27:14:Microsoft.FirstPerson:Use first person (such as 'mine') sparingly.
       test.md:29:17:Microsoft.We:Try to avoid using first-person plural like 'us'.
       test.md:31:1:Microsoft.We:Try to avoid using first-person plural like 'Let's'.
-      test.md:33:1:Microsoft.FirstPerson:Use first person (such as 'I,') sparingly.
+      test.md:33:1:Microsoft.FirstPerson:Use first person (such as 'I, ') sparingly.
       test.md:33:21:Microsoft.We:Try to avoid using first-person plural like 'our'.
       test.md:35:1:Microsoft.We:Try to avoid using first-person plural like 'We'.
-      test.md:35:8:Microsoft.ComplexWords:Consider using 'carry out|do' instead of 'accomplish'.
+      test.md:35:8:Microsoft.ComplexWords:Consider using 'carry out or do' instead of 'accomplish'.
       """
 
   Scenario: Backend vs. Back-end
@@ -86,7 +86,7 @@ Feature: Rules
     When I test "Dashes"
     Then the output should contain exactly:
       """
-      test.md:3:42:Microsoft.Dashes:Remove the spaces around '—'.
+      test.md:3:42:Microsoft.Dashes:Remove the spaces around ' — '.
       """
 
   Scenario: Use of units
@@ -129,7 +129,7 @@ Feature: Rules
     Then the output should contain exactly:
       """
       test.md:3:10:Microsoft.Ellipses:In general, don't use an ellipsis.
-      test.md:5:13:Microsoft.Hyphens:'officially-' doesn't need a hyphen.
+      test.md:5:13:Microsoft.Hyphens:' officially-' doesn't need a hyphen.
       test.md:7:1:Microsoft.OxfordComma:Use the Oxford comma in 'I like red, blue, green and'.
       test.md:11:10:Microsoft.Quotes:Punctuation should be inside the quotes.
       test.md:15:19:Microsoft.Semicolon:Try to simplify this sentence.
