@@ -1,0 +1,179 @@
+# A
+abortion: true #Avoid.yml
+abort: false
+above: true #Vocab.yml
+access: true #Vocab.yml
+access-key: false
+accessible: true #Vocab.yml
+achievement: false
+actionable: true #Vocab.yml
+active-player-active-user: false
+adapter: true #Terms.yml
+add: false
+add-in-add-on: false
+adjacent-selection: false
+administer: true #Terms.yml
+administrator-admin: true #Terms.yml
+afterward: true #Terms.yml
+against: true #Vocab.yml
+ai: false
+alarm: true #Vocab.yml
+alert: true #Vocab.yml
+alias: true #Vocab.yml
+allow-allows: true #Vocab.yml
+alphabetical: true #Terms.yml
+alphanumeric: true #Terms.yml
+am-pm: true #AMPM.yml
+ampersand: false
+and-so-on: true #Avoid.yml
+and-or: true #Avoid.yml
+antialiasing: true #Terms.yml
+antimalware: true #Terms.yml
+antispyware: true #Terms.yml
+antivirus: true #Terms.yml
+app-application: true #Avoid.yml
+appendix-appendices: true #Terms.yml
+applet: false
+application-developer: true #Avoid.yml
+app-developer: true #Avoid.yml
+application-file: true #Avoid.yml
+app-file: true #Avoid.yml
+application-icon: false
+app-icon: false
+application-window: false
+app-window: false
+argument-vs-parameter: false
+arrow: false
+arrow-keys: false
+as-well-as: true #Avoid.yml
+ask: true #Avoid.yml
+assembly-language: true #Terms.yml
+assistive: false
+assure-ensure-insure: true #Vocab.yml
+asterisk: false
+at-sign: false
+attribute: false
+audiobook: true #Terms.yml
+author: true #Vocab.yml
+auto-: true #Auto.yml
+avg: true #Vocab.yml
+
+# B
+back-end: true #Backend.yml
+back-up: false
+backbone: true #Avoid.yml
+backlight: true #Terms.yml
+backspace: false
+backtab: false
+badge: false
+baseline: false
+baud: false
+beep: false
+below: false
+beta: true #Vocab.yml
+bi-: false
+big-data: false
+big-endian-little-endian: false
+billion: false
+bio: false
+bitmap: false
+bits-per-second: false
+black-box: false
+black-hat-hacker: false
+blacklist: false
+blade: false
+blank: false
+blog-blogger-blogroll-weblog: false
+blue-screen: false
+bluetooth: false
+blu-ray-disk: false
+board: false
+bold: false
+bookmark: false
+boolean: false
+boot: false
+bot: true #Terms.yml
+bottom-left-bottom-right: false
+bounding-outline: false
+box: false
+bps: true #Terms.yml
+breakpoint: false
+broadcast: false #Passive.yml
+browse: false
+bug-fix: false
+build: false
+bulk: false
+button: false
+by: false
+
+# C
+c-c++-c#: false
+cable: false
+cabling: false
+cache-vs-cache-disk: false
+calendar: false
+call-back: false
+call-out: false
+can-may: false
+cancel-canceled-canceling-cancelation: false
+carry-out-vs-run: false
+cascading-style-sheet: true #Acronyms.yml
+catalog: false
+category-axis: true
+cell-phone-cellular-phone: false
+cellular: false
+center-on: false
+character-set: false
+chart: false
+chat: false
+chatbot: true #Terms.yml
+check-check-box-check-mark: false
+check-in: false
+child-folder: false
+choose: false
+clear: false
+click: false
+clickstream: false
+clickthrough: false
+client: false
+client-side: false
+client-server: false
+clipboard: false
+close: false
+close-button: false
+cloud: true #Terms.yml
+cloud-platform: false
+cloud-services: false
+co-: false
+code-page: false
+code-point: false
+codec: false
+color-map: false
+column-format: false
+combo-box: false
+command: false
+command-button: false
+command-line: false
+command-prompt: false
+community-cloud: false
+company-vs-organization: false
+compile: false
+compute: false
+computer: false
+connect: false
+console: false
+context-menu: false
+context-sensitive: false
+contiguous-selection: false
+control: false
+control-panel: false
+controller: false
+control-menu-box: false
+conversation-as-a-platform: true #Terms.yml
+conversational-user-interface: false
+-core: false
+corrupted: true
+country-or-region: false
+crash: false
+cut-cut-and-paste: false
+cyber-: false
