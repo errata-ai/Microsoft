@@ -806,3 +806,100 @@ trojan-horse-trojan: false
 turn-on-turn-off: false
 turnkey: false
 type: false
+
+# U
+uk: false
+ultrabook: false
+un-: false
+unavailable: false
+uncheck-unmark-unselect: false
+undelete: false
+underline-vs-underscore: false
+undo: false
+uninstall: false
+unregister: false
+unwanted-software: false
+upgrade: false
+upload: false
+upnp: false
+upper-left-upper-right: false
+uppercase: false
+upsize: false
+upward: false
+url: true #URLFormat.yml, GeneralURL.yml
+us: false
+usable: false
+usb: true #Acronyms.yml
+use-terms: false
+user-end-user: false
+user-rights: false
+using-by-using-with: false
+utility: false
+
+# V
+value-axis: false
+versus-vs: false
+video-call-videoconference: false
+video-card: false
+video-display: false
+video-driver: false
+video-game: false
+virtual: false
+virtual-agent: false
+virtualize: false
+visit: false
+voice-user-interface-vui: false
+voice-activated-device: false
+voicemail: false
+vulnerability: false
+
+# W
+w3c: false
+want: false
+we: true #We.yml
+wearable-wearable-device: false
+web-world-wide-web-www: false
+web-services: false
+where: false
+while: false
+white-hat-hacker: false
+white-paper: false
+white-space: false
+whitelist: false
+who-vs-that: false
+wi-fi: false
+wildcard-character: false
+window: false
+windows-windows-based: false
+windows-7-windows-8-windows-10: false
+windows-explorer: false
+wireframe: false
+wireless: false
+wizard: false
+word-processing: false
+wordwrap-wordwrapping: false
+work-area-workspace: false
+work-style: false
+workgroup: false
+working-memory: false
+workstation: false
+worldwide-vs-international: false
+write-only: false
+write-protect-write-protected: false
+
+# X
+x: false
+x-axis: false
+x-coordinate: false
+xon-xoff: false
+
+# Y
+y-axis: false
+y-coordinate: false
+
+# Z
+z-: false
+z-axis: false
+zero-zeros: false
+zip-code: false
+zoom-in-zoom-out: false
