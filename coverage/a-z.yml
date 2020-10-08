@@ -15,7 +15,7 @@ administer: true #Terms.yml
 administrator-admin: true #Terms.yml
 afterward: true #Terms.yml
 against: true #Vocab.yml
-artificial-intelligence-ai: false
+artificial-intelligence-ai: false #Terms.yml
 alarm: true #Vocab.yml
 alert: true #Vocab.yml
 alias: true #Vocab.yml
@@ -54,7 +54,7 @@ auto: true #Auto.yml
 avg: true #Vocab.yml
 
 # B
-back-end: true #Backend.yml
+back-end: true #Backend.yml, #Avoid.yml
 back-up-backup: false
 backbone: true #Avoid.yml
 backlight: true #Terms.yml
@@ -223,7 +223,7 @@ downgrade: false
 download: false
 drag-and-drop: true #Wordiness.yml
 drill-down-drill-up-drill-through: false
-drive: false
+drive: false #Terms.yml
 drive-name: false
 drop-down: false
 dvd: false
@@ -231,7 +231,7 @@ dynamic-link-library-dll: false
 dynamic-service-capacity: false
 
 # E
-eg: false
+eg: true #Foreign.yml
 earlier: false
 e-book: false
 e-commerce: false
@@ -315,7 +315,7 @@ garbage-collection-garbage-collector: false
 general-data-protection-regulation-gdpr: false
 general-protection-fault-gp-fault: false
 gigabit: false
-gigabyte: false
+gigabyte: false #Terms.yml
 gigahertz: false
 given: false
 global: false
@@ -348,7 +348,7 @@ header: false
 heading: false
 hearing-impaired: false
 help: false
-he-she: true #Gender.yml
+he-she: true #Gender.yml, #Vocab.yml
 hexadecimal: false
 hierarchical-menu: false
 higher: false
@@ -432,7 +432,7 @@ keypad: false
 keypress-keystroke: true #Terms.yml
 kilobit: false
 kilobits-per-second: false
-kilobyte: true #Terms.yml
+kilobyte: false #Terms.yml
 kilobytes-per-second: false
 kilohertz: false
 knowledge-base: false
@@ -487,7 +487,7 @@ maximize-button-maximize: false
 medium-media: false
 megabit: false
 megabits-per-second: false
-megabyte: false
+megabyte: false #Terms.yml
 megahertz: false
 member-function: false
 memory: false
@@ -509,7 +509,7 @@ minus-sign: false
 mip-mapping: false
 mission-critical: false
 mixed-reality: false
-mobile-device-mobile-phone: false
+mobile-device-mobile-phone: false #Terms.yml
 monitor: false
 monospace: false
 more-than-vs-over: false
@@ -594,12 +594,12 @@ pc: false
 p-code: false
 pen: false
 per: false
-percent-percentage: false
+percent-percentage: false #Percentages.yml
 perimeter-network: false
 peripheral: false
 permissions: false
 personal-digital-assistant: true #Terms.yml
-phone: false
+phone: false #Terms.yml
 photo: false
 pin-unpin: false
 pinch: false
@@ -651,7 +651,7 @@ quit: false
 # R
 radio-button: false
 ragged-right: false
-ram: false
+ram: false #Acronyms.yml
 range-selection: false
 re: false
 read-only: false
@@ -688,7 +688,7 @@ runtime: false
 
 # S
 s-es: false
-sample-vs-preview: false
+sample-vs-preview: false #Vocab.yml
 save: false
 scan-line: false
 screen: false
@@ -724,7 +724,7 @@ size-resize: false
 sleep: false
 slider: false
 slideshow: false
-small-caps: false
+small-caps: false #AMPM.yml
 smart-card: false
 smartphone: true #Terms.yml
 snap-in: false
@@ -741,7 +741,7 @@ split-bar-split-box: false
 spoofing: false
 spreadsheet-vs-workbook: false
 spyware: false
-sql-sql-server: false
+sql-sql-server: false #Acronyms.yml
 start-restart: false
 start-button-start-menu: false
 start-page: false
@@ -774,7 +774,7 @@ tablet: false
 tap-double-tap-tap-and-hold: false
 target-drive-target-file: false
 taskbar: false
-terabyte: false
+terabyte: false #Terms.yml
 terminate: false
 text-text-message: false
 text-box: false
@@ -850,7 +850,7 @@ vulnerability: false
 
 # W
 w3c: false
-want: false
+want: false #ComplexWords.yml
 we: true #We.yml
 wearable-wearable-device: false
 web-world-wide-web-www: false
