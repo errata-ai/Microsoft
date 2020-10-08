@@ -1,6 +1,5 @@
 # A
-abortion: true #Avoid.yml
-abort: false
+abort-abortion: false #Avoid.yml
 above: true #Vocab.yml
 access: true #Vocab.yml
 access-key: false
@@ -16,7 +15,7 @@ administer: true #Terms.yml
 administrator-admin: true #Terms.yml
 afterward: true #Terms.yml
 against: true #Vocab.yml
-ai: false
+artificial-intelligence-ai: false
 alarm: true #Vocab.yml
 alert: true #Vocab.yml
 alias: true #Vocab.yml
@@ -34,14 +33,10 @@ antivirus: true #Terms.yml
 app-application: true #Avoid.yml
 appendix-appendices: true #Terms.yml
 applet: false
-application-developer: true #Avoid.yml
-app-developer: true #Avoid.yml
-application-file: true #Avoid.yml
-app-file: true #Avoid.yml
-application-icon: false
-app-icon: false
-application-window: false
-app-window: false
+application-developer-app-developer: true #Avoid.yml
+application-file-app-file: true #Avoid.yml
+application-icon-app-icon: false
+application-window-app-window: false
 argument-vs-parameter: false
 arrow: false
 arrow-keys: false
@@ -55,12 +50,12 @@ at-sign: false
 attribute: false
 audiobook: true #Terms.yml
 author: true #Vocab.yml
-auto-: true #Auto.yml
+auto: true #Auto.yml
 avg: true #Vocab.yml
 
 # B
 back-end: true #Backend.yml
-back-up: false
+back-up-backup: false
 backbone: true #Avoid.yml
 backlight: true #Terms.yml
 backspace: false
@@ -71,10 +66,10 @@ baud: false
 beep: false
 below: false
 beta: true #Vocab.yml
-bi-: false
+bi: false
 big-data: false
 big-endian-little-endian: false
-billion: false
+billion-b: false
 bio: false
 bitmap: false
 bits-per-second: false
@@ -84,7 +79,7 @@ blacklist: false
 blade: false
 blank: false
 blog-blogger-blogroll-weblog: false
-blue-screen: false
+blue-screen-bluescreen: false
 bluetooth: false
 blu-ray-disk: false
 board: false
@@ -107,17 +102,17 @@ button: false
 by: false
 
 # C
-c-c++-c#: false
+c-cplusplus-csharp: false
 cable: false
 cabling: false
-cache-vs-cache-disk: false
+cache-vs-disk-cache: false
 calendar: false
-call-back: false
-call-out: false
+call-back-callback: false
+call-out-callout: false
 can-may: false
-cancel-canceled-canceling-cancelation: false
+cancel-canceled-canceling-cancellation: false
 carry-out-vs-run: false
-cascading-style-sheet: true #Acronyms.yml
+cascading-style-sheet-css: true #Acronyms.yml
 catalog: false
 category-axis: true
 cell-phone-cellular-phone: false
@@ -144,7 +139,7 @@ close-button: false
 cloud: true #Terms.yml
 cloud-platform: false
 cloud-services: false
-co-: false
+co: false
 code-page: false
 code-point: false
 codec: false
@@ -169,14 +164,14 @@ control: false
 control-panel: false
 controller: false
 control-menu-box: false
-conversation-as-a-platform: true #Terms.yml
-conversational-user-interface: false
--core: false
+conversation-as-a-platform-caap: true #Terms.yml
+conversational-user-interface-cui: false
+dash-core: false
 corrupted: true
 country-or-region: false
 crash: false
-cut-cut-and-paste: false
-cyber-: false
+cut-and-paste: false
+cyber: false
 
 # D
 data-datum: false
@@ -226,7 +221,7 @@ double-buffering: false
 double-click-double-clicking: false
 downgrade: false
 download: false
-drag-drag-and-drop: true #Wordiness.yml
+drag-and-drop: true #Wordiness.yml
 drill-down-drill-up-drill-through: false
 drive: false
 drive-name: false
@@ -254,7 +249,7 @@ enable-enables: false
 end: false
 endline: false
 endpoint: false
-end-user-license-agreement: false
+end-user-license-agreement-eula: false
 ensure-insure-assure: true #Vocab.yml
 enter: false
 enterprise: false
@@ -277,7 +272,7 @@ extension-file-name-extension: false
 # F
 fail: false
 fail-over-fail-back-failover-failback: false
-false: false
+FALSE: false
 family: false
 far-east: false
 far-left-far-right: false
@@ -290,7 +285,7 @@ file-explorer: false
 file-name: false
 file-name-extension-extension: false
 finalize: true #ComplexWords.yml
-find-and-replace: false
+find-replace: false
 first-line: false
 fitness-band: false
 fixed-disk: false
@@ -319,9 +314,9 @@ game-pad: false
 garbage-collection-garbage-collector: false
 general-data-protection-regulation-gdpr: false
 general-protection-fault-gp-fault: false
-gigabit-gbit: false
-gigabyte-gb-g-g-byte-gbyte: false
-gigahertz-ghz: false
+gigabit: false
+gigabyte: false
+gigahertz: false
 given: false
 global: false
 glyph: false
@@ -348,10 +343,10 @@ hard-drive: false
 hard-code-hard-coded-hard-coding: false
 hard-of-hearing: false
 hardwired: false
-hdmi-high-definition-multimedia-interface: false
+hdmi: false
 header: false
 heading: false
-hearing-impared: false
+hearing-impaired: false
 help: false
 he-she: true #Gender.yml
 hexadecimal: false
@@ -372,7 +367,7 @@ hot-key: false
 hot-link: false
 hot-spot-hotspot: false
 hover-over-hovering: false
-how-to: false
+how-how-to: false
 html: true #Acronyms.yml
 http-https: false #Acronyms.yml
 hybrid-cloud:  false
@@ -394,12 +389,12 @@ increment: false
 indent-outdent: false
 index-indexes-indices: false
 info: false
-infrastructure-as-a-service-iaas: false
+infrastructure-as-a-service: false
 initialize: false
 initiate: true #ComplexWords.yml
 inline: false
 input: false
-input-output-io-input-output-control: false
+input-output: false
 insecure: false
 inside: false
 install: false
@@ -412,7 +407,7 @@ internet-intranet-extranet: false
 internet-connection-sharing: false
 internet-explorer: false
 internet-of-things-iot: false
-internet-service-provider-isp: false
+internet-service-provider: false
 invalid-not-valid: false
 invoke: false
 ip-address: false
@@ -435,11 +430,11 @@ key-sequence: false
 keyboard-shortcut: false
 keypad: false
 keypress-keystroke: true #Terms.yml
-kilobit-kbit: false
-kilobits-per-second-kbps: false
-kilobyte-kb-k-k-byte-kbyte: true #Terms.yml
-kilobytes-per-second-kbps: false
-kilohertz-khz: false
+kilobit: false
+kilobits-per-second: false
+kilobyte: true #Terms.yml
+kilobytes-per-second: false
+kilohertz: false
 knowledge-base: false
 
 # L
@@ -460,7 +455,7 @@ less-vs-fewer-vs-under: false
 let-lets: false
 leverage: false
 license-terms: false
--like: false
+like: false
 line: false
 line-of-business: false
 link: false
@@ -490,22 +485,22 @@ mathematical: false
 matrix-matrices: false
 maximize-button-maximize: false
 medium-media: false
-megabit-mb-mbit: false
-megabits-per-second-mbps: false
-megabyte-mb-meg-m-byte-mbyte: false
-megahertz-mhz: false
+megabit: false
+megabits-per-second: false
+megabyte: false
+megahertz: false
 member-function: false
 memory: false
 memory-resident: false
 menu-item: false
 message: false
 metafile: false
-micro-: false
+micro: false
 microprocessor: false
 microsoft: false
 microsoft-account: false
 microsoft-ai: false
-microsoft-software-license-terms: false
+software-license-terms: false
 microsoft-store: false
 midnight: false
 million-m: false
@@ -514,7 +509,7 @@ minus-sign: false
 mip-mapping: false
 mission-critical: false
 mixed-reality: false
-mobile-device: false
+mobile-device-mobile-phone: false
 monitor: false
 monospace: false
 more-than-vs-over: false
@@ -523,7 +518,7 @@ mouse-over: false
 movable: false
 move: false
 mpeg: false
-multi-: false
+multi: false
 multifactor-authentication: false
 multiple-selection: false
 multiplication-sign: false
@@ -538,21 +533,21 @@ native-language: false
 natural-user-interface-nui: false
 navigate: false
 need: false
-.net: false
+net: false
 network: false
 network-adapter: false
 network-administrator: false
 network-connection: false
 network-drive: false
 newsreader: false
-non-: false
+non: false
 nonadjacent-selection: false
 noncontiguous-selection: false
 nonprintable-nonprinting: false
 normal-normally: false
 notification: false
 notification-area: false
-null-NULL-Null: false
+null: false
 null-terminated-null-terminating: false
 number-sign: false
 numeric: false
@@ -578,7 +573,7 @@ open: false
 open-source: false
 operating-environment-operating-system: false
 opt-in-opt-out: false
-option-option-button: false
+option-button: false
 org-organization: false
 output: false
 outside: false
@@ -608,7 +603,7 @@ phone: false
 photo: false
 pin-unpin: false
 pinch: false
-ping-PING: false
+ping-ping: false
 pipe: false
 placeholder: false
 plaintext-plain-text: false
@@ -628,9 +623,9 @@ pound-key-pound-sign: false
 power-cord: false
 power-down-power-up-power-off-power-on: false
 power-user: false
-pre-: false
+pre: false
 preceding: false
-press-press-and-hold: false
+press-and-hold: false
 preview: false
 print-printout: false
 print-queue-printer-queue: false
@@ -658,13 +653,13 @@ radio-button: false
 ragged-right: false
 ram: false
 range-selection: false
-re-: false
+re: false
 read-only: false
 read-write-read-write-permission: false
 real-time: false
 reboot: false
 recommended: false
-Recycle-Bin-recycle-bin: false
+recycle-bin: false
 refresh: false
 registry-registry-settings: false
 reinitialize: false
@@ -703,15 +698,15 @@ screenshot: false
 script-scriptlet: false
 scroll: false
 scroll-bar-scroll-arrow-scroll-box: false
-search-search-and-replace: false
+search-and-replace: false
 search-box: false
 secondary-menu: false
 select: false
 server: false
-service-level-agreement: false
-service-oriented-architecture: false
+service-level-agreement-sla: false
+service-oriented-architecture-soa: false
 set-specify: false
-set-up-setup-Setup: false
+set-up-setup: false
 setting-value: false
 set-top-box: false
 shaded: false
@@ -730,7 +725,7 @@ sleep: false
 slider: false
 slideshow: false
 small-caps: false
-smart-card-Smart-Card: false
+smart-card: false
 smartphone: true #Terms.yml
 snap-in: false
 social-chatbot: false
@@ -759,7 +754,7 @@ stream-streaming: false
 stretch: false
 strut-structure: false
 style-sheet: false
-sub-: false
+sub: false
 subaddress: false
 subclass: false
 surf: false
@@ -779,7 +774,7 @@ tablet: false
 tap-double-tap-tap-and-hold: false
 target-drive-target-file: false
 taskbar: false
-terabyte-tb: false
+terabyte: false
 terminate: false
 text-text-message: false
 text-box: false
@@ -810,7 +805,7 @@ type: false
 # U
 uk: false
 ultrabook: false
-un-: false
+un: false
 unavailable: false
 uncheck-unmark-unselect: false
 undelete: false
@@ -898,7 +893,7 @@ y-axis: false
 y-coordinate: false
 
 # Z
-z-: false
+z: false
 z-axis: false
 zero-zeros: false
 zip-code: false
