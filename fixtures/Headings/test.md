@@ -11,3 +11,5 @@
 # Top-level entities
 
 ## Find the thief: Introduction
+
+# 8. Do step eight

@@ -152,6 +152,7 @@ Feature: Rules
       test.md:5:3:Microsoft.Headings:'This is a Heading' should use sentence-style capitalization.
       test.md:7:13:Microsoft.HeadingPunctuation:Don't use end punctuation in headings.
       test.md:9:15:Microsoft.HeadingAcronyms:Avoid using acronyms in a title or heading.
+      test.md:15:3:Microsoft.Headings:'8. Do step eight' should use sentence-style capitalization.
       """
 
   Scenario: Passive voice
