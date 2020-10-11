@@ -160,6 +160,7 @@ Feature: Rules
     Then the output should contain exactly:
       """
       test.md:3:6:Microsoft.Passive:'was broken' looks like passive voice.
+      test.md:5:6:Microsoft.Passive:'are related' looks like passive voice.
       """
 
   Scenario: Sentences
