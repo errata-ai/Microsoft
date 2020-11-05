@@ -42,7 +42,7 @@ Feature: Rules
     Then the output should contain exactly:
       """
       test.md:3:25:Microsoft.Avoid:Don't use 'abortion'.
-      test.md:5:9:Microsoft.Avoid:Don't use 'and/or'.
+      test.md:5:9:Microsoft.Vocab:Verify your use of 'and/or' with the A-Z word list.
       test.md:5:34:Microsoft.ComplexWords:Consider using 'plenty' instead of 'abundance'.
       test.md:7:8:Microsoft.Adverbs:Consider removing 'very'.
       test.md:9:1:Microsoft.FirstPerson:Use first person (such as 'I ') sparingly.

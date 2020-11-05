@@ -1,18 +1,14 @@
 extends: existence
 message: "Don't use '%s'."
+# See the A-Z word list
 link: https://docs.microsoft.com/en-us/style-guide
 ignorecase: true
 level: error
 tokens:
   - abortion
   - and so on
-  - and/or
-  - app developer
+  - app(?:lication)s? (?:developer|program)
   - app(?:lication)? file
-  - application developer
-  - application program
-  - applications developer
-  - as well as
-  - ask
   - backbone
   - backend
+  - contiguous selection

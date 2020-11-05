@@ -41,7 +41,7 @@ argument-vs-parameter: false
 arrow: false
 arrow-keys: false
 as-well-as: true #Avoid.yml
-ask: true #Avoid.yml
+ask: false
 assembly-language: true #Terms.yml
 assistive: false
 assure-ensure-insure: true #Vocab.yml
@@ -159,7 +159,7 @@ connect: false
 console: false
 context-menu: false
 context-sensitive: false
-contiguous-selection: false
+contiguous-selection: true # Avoid.yml
 control: false
 control-panel: false
 controller: false

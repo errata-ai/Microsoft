@@ -1,6 +1,6 @@
 extends: existence
 message: "Verify your use of '%s' with the A-Z word list."
-link: 'https://docs.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/a/abort-abortion'
+link: 'https://docs.microsoft.com/en-us/style-guide'
 level: suggestion
 ignorecase: true
 tokens:
@@ -12,12 +12,14 @@ tokens:
   - alert
   - alias
   - allows?
+  - and/or
+  - as well as
   - assure
   - author
   - avg
+  - beta
   - ensure
   - he
   - insure
-  - she
   - sample
-  - beta
+  - she
