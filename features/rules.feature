@@ -86,7 +86,11 @@ Feature: Rules
     When I test "Dashes"
     Then the output should contain exactly:
       """
-      test.md:3:42:Microsoft.Dashes:Remove the spaces around ' — '.
+      test.md:3:42:Microsoft.Dashes:Remove the spaces around ' —'.
+      test.md:7:7:Microsoft.Dashes:Remove the spaces around ' —'.
+      test.md:8:7:Microsoft.Dashes:Remove the spaces around '— '.
+      test.md:9:7:Microsoft.Dashes:Remove the spaces around ' —'.
+      test.md:10:7:Microsoft.Dashes:Remove the spaces around ' —'.
       """
 
   Scenario: Use of units
