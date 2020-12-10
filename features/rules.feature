@@ -59,7 +59,7 @@ Feature: Rules
       test.md:33:1:Microsoft.FirstPerson:Use first person (such as 'I, ') sparingly.
       test.md:33:21:Microsoft.We:Try to avoid using first-person plural like 'our'.
       test.md:35:1:Microsoft.We:Try to avoid using first-person plural like 'We'.
-      test.md:35:8:Microsoft.ComplexWords:Consider using 'carry out or do' instead of 'accomplish'.
+      test.md:35:8:Microsoft.ComplexWords:Consider using 'carry out' or 'do' instead of 'accomplish'.
       """
 
   Scenario: Backend vs. Back-end
