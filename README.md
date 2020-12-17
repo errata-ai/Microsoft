@@ -4,7 +4,7 @@ This repository contains a [Vale-compatible](https://github.com/errata-ai/vale) 
 
 The goal is to showcase how to build and maintain a full-featured style guide for Vale, including many examples of using [extension points](https://errata-ai.github.io/vale/styles/#extension-points) and a test suite using [Cucumber](https://cucumber.io/), [`yamllint`](https://github.com/adrienverge/yamllint), and [Travis CI](https://travis-ci.org/).
 
-[![Build Status](https://travis-ci.org/errata-ai/Microsoft.svg?branch=master)](https://travis-ci.org/errata-ai/Microsoft) ![Vale version](https://img.shields.io/badge/vale-%3E%3D%20v1.7.0-blue.svg) ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
+[![Build Status](https://travis-ci.com/errata-ai/Microsoft.svg?branch=master)](https://travis-ci.com/errata-ai/Microsoft) ![Vale version](https://img.shields.io/badge/vale-%3E%3D%20v1.7.0-blue.svg) ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 ## Getting Started
 
