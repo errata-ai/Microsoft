@@ -41,7 +41,7 @@ Feature: Rules
     When I test "Terms"
     Then the output should contain exactly:
       """
-      test.md:3:25:Microsoft.Avoid:Don't use 'abortion'.
+      test.md:3:25:Microsoft.Avoid:Don't use 'abortion'. See the A-Z word list for details.
       test.md:5:9:Microsoft.Vocab:Verify your use of 'and/or' with the A-Z word list.
       test.md:5:34:Microsoft.ComplexWords:Consider using 'plenty' instead of 'abundance'.
       test.md:7:8:Microsoft.Adverbs:Consider removing 'very'.
