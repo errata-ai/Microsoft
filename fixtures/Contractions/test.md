@@ -162,23 +162,29 @@
   <!-- Should pass -->
   What's going on?
   We should do what's right.
+  It's easier to tell what's not there than what is.
   <!-- Should fail -->
   What is going on?
   We should do what is right.
+  It's easier to tell what's not there than what's.
 <!-- when's -->
   <!-- Should pass -->
   When's it starting?
   I can't tell when's right.
+  It's easier to figure out when's not feasible than when is.
   <!-- Should fail -->
   When is it starting?
   I can't tell when is right.
+  It's easier to figure out when's not feasible than when's.
 <!-- where's -->
   <!-- Should pass -->
   Where's your curly mustache at?
   I can't tell where's best.
+  It's easier to figure out where's not feasible than where is.
   <!-- Should fail -->
   Where is your curly mustache at?
   I can't tell where is best.
+  It's easier to figure out where's not feasible than where's.
 <!-- won't -->
   <!-- Should pass -->
   Won't you join us?
