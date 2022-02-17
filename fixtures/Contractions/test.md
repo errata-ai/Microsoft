@@ -1,5 +1,6 @@
 # Contractions
 
+<!-- Should fail -->
 It is cold outside.
 
 <!-- Should pass -->
@@ -9,7 +10,5 @@ It can reach anyone, wherever they're located.
 They're a great team.
 
 <!-- Should fail -->
-We welcome all contributions, no matter how great or small they're.
-It can reach anyone, wherever they're.
 It can reach anyone, wherever they are located.
 They are a great team.
