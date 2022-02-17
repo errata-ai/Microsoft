@@ -1,6 +1,6 @@
 # Contractions
 
-<!-- are not: aren't -->
+<!-- aren't -->
   <!-- Should pass -->
   Aren't you tired?
   They aren't ready yet.
@@ -9,7 +9,7 @@
   Are not you tired?
   They are not ready yet.
   I'll prepare those that are not.
-<!-- cannot: can't -->
+<!-- can't -->
   <!-- Should pass -->
   Can't we do something about it?
   We can't do something about it.
@@ -18,7 +18,7 @@
   Cannot we do something about it?
   We cannot do something about it.
   We've tried, and we really cannot.
-<!-- could not: couldn't -->
+<!-- couldn't -->
   <!-- Should pass -->
   Couldn't we do something about it?
   We couldn't do something about it.
@@ -27,7 +27,7 @@
   Could not we do something about it?
   We could not do something about it.
   We've tried, and we really could not.
-<!-- did not: didn't -->
+<!-- didn't -->
   <!-- Should pass -->
   Didn't we do something about it?
   We didn't do something about it.
@@ -36,7 +36,7 @@
   Did not we do something about it?
   We did not do something about it.
   Unfortunately, it didn't.
-<!-- do not: don't -->
+<!-- don't -->
   <!-- Should pass -->
   Don't you want to win?
   I don't think I can do this.
@@ -45,7 +45,7 @@
   Do not you want to win?
   I do not think I can do this.
   Please do not.
-<!-- does not: doesn't -->
+<!-- doesn't -->
   <!-- Should pass -->
   Doesn't that sound great?
   That doesn't sound great...
@@ -54,7 +54,7 @@
   Does not that sound great?
   That does not sound great...
   You might think it does, but it does not.
-<!-- has not: hasn't -->
+<!-- hasn't -->
   <!-- Should pass -->
   Hasn't it been great?
   That hasn't changed.
@@ -63,7 +63,7 @@
   Has not that sound great?
   That has not changed
   You might think it has, but it has not.
-<!-- have not: haven't -->
+<!-- haven't -->
   <!-- Should pass -->
   Haven't you had a great time?
   I haven't been here for a while.
@@ -72,12 +72,12 @@
   Have not you had a great time?
   I have not been here for a while.
   I have not.
-<!-- how is: how's -->
+<!-- how's -->
   <!-- Should pass -->
   How's everyone back home?
   <!-- Should fail -->
   How is everyone back home?
-<!-- is not: isn't -->
+<!-- isn't -->
   <!-- Should pass -->
   Isn't that amazing?
   That isn't possible.
@@ -86,7 +86,7 @@
   Is not that amazing?
   That is not possible.
   I can't tell what is and what is not.
-<!-- it is: it's -->
+<!-- it's -->
   <!-- Should pass -->
   It's cold outside.
   I think it's cold outside.
@@ -95,7 +95,7 @@
   It is cold outside.
   I think it is cold outside.
   Let's find it, wherever it's.
-<!-- should not: shouldn't -->
+<!-- shouldn't -->
   <!-- Should pass -->
   Shouldn't you be going?
   You shouldn't go anywhere.
@@ -104,7 +104,7 @@
   Should not you be going?
   You should not go anywhere.
   Maybe you really should not.
-<!-- that is: that's -->
+<!-- that's -->
   <!-- Should pass -->
   That's amazing.
   All that's here is free.
@@ -113,7 +113,7 @@
   That is amazing.
   All that is here is free.
   He wouldn't lie - if he could help it, that's.
-<!-- they are: they're -->
+<!-- they're -->
   <!-- Should pass -->
   It can reach anyone, wherever they are.
   It can reach anyone, wherever they're located.
@@ -122,7 +122,7 @@
   It can reach anyone, wherever they're.
   It can reach anyone, wherever they are located.
   They are a great team.
-<!-- was not: wasn't -->
+<!-- wasn't -->
   <!-- Should pass -->
   Wasn't that amazing?
   It wasn't great.
@@ -131,7 +131,7 @@
   Was not that amazing?
   It was not great.
   It was not.
-<!-- we are: we're -->
+<!-- we're -->
   <!-- Should pass -->
   We're groove crusaders.
   I think we're a great team.
@@ -140,7 +140,7 @@
   We are groove crusaders.
   I think we are a great team.
   Nobody knows where we're.
-<!-- we have: we've -->
+<!-- we've -->
   <!-- Should pass -->
   We've come so far.
   Let's think about what we've done.
@@ -149,7 +149,7 @@
   We have come so far.
   Let's think about what we have done.
   We should be grateful for all that we've.
-<!-- were not: weren't -->
+<!-- weren't -->
   <!-- Should pass -->
   Weren't they here last time?
   Maybe you weren't thinking straight.
@@ -158,28 +158,28 @@
   Were not they here last time?
   Maybe you were not thinking straight.
   They were not.
-<!-- what is: what's -->
+<!-- what's -->
   <!-- Should pass -->
   What's going on?
   We should do what's right.
   <!-- Should fail -->
   What is going on?
   We should do what is right.
-<!-- when is: when's -->
+<!-- when's -->
   <!-- Should pass -->
   When's it starting?
   I can't tell when's right.
   <!-- Should fail -->
   When is it starting?
   I can't tell when is right.
-<!-- where is: where's -->
+<!-- where's -->
   <!-- Should pass -->
   Where's your curly mustache at?
   I can't tell where's best.
   <!-- Should fail -->
   Where is your curly mustache at?
   I can't tell where is best.
-<!-- will not: won't -->
+<!-- won't -->
   <!-- Should pass -->
   Won't you join us?
   You won't regret it.
