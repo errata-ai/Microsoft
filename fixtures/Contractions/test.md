@@ -119,7 +119,7 @@
   It can reach anyone, wherever they're located.
   They're a great team.
   <!-- Should fail -->
-  It can reach anyone, wherever they're. <!-- TODO -->
+  It can reach anyone, wherever they're.
   It can reach anyone, wherever they are located.
   They are a great team.
 <!-- wasn't -->
