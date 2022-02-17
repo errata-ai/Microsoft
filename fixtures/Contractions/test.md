@@ -35,7 +35,7 @@
   <!-- Should fail -->
   Did not we do something about it?
   We did not do something about it.
-  Unfortunately, it didn't. <!-- TODO -->
+  Unfortunately, it did not.
 <!-- don't -->
   <!-- Should pass -->
   Don't you want to win?
@@ -90,7 +90,7 @@
   <!-- Should pass -->
   It's cold outside.
   I think it's cold outside.
-  Let's find it, wherever it is. <!-- TODO -->
+  Let's find it, wherever it is.
   <!-- Should fail -->
   It is cold outside.
   I think it is cold outside.
@@ -108,7 +108,7 @@
   <!-- Should pass -->
   That's amazing.
   All that's here is free.
-  He wouldn't lie - if he could help it, that is. <!-- TODO -->
+  He wouldn't lie - if he could help it, that is.
   <!-- Should fail -->
   That is amazing.
   All that is here is free.
@@ -135,7 +135,7 @@
   <!-- Should pass -->
   We're groove crusaders.
   I think we're a great team.
-  Nobody knows where we are. <!-- TODO -->
+  Nobody knows where we are.
   <!-- Should fail -->
   We are groove crusaders.
   I think we are a great team.
@@ -144,11 +144,11 @@
   <!-- Should pass -->
   We've come so far.
   Let's think about what we've done.
-  We should be grateful for all that we have. <!-- TODO -->
+  We should be grateful for all that we have.
   <!-- Should fail -->
   We have come so far.
   Let's think about what we have done.
-  We should be grateful for all that we've.
+  We should be grateful for all that we've. <!-- TODO -->
 <!-- weren't -->
   <!-- Should pass -->
   Weren't they here last time?
