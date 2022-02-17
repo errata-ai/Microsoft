@@ -35,7 +35,7 @@
   <!-- Should fail -->
   Did not we do something about it?
   We did not do something about it.
-  Unfortunately, it didn't.
+  Unfortunately, it didn't. <!-- TODO -->
 <!-- don't -->
   <!-- Should pass -->
   Don't you want to win?
@@ -81,7 +81,7 @@
   <!-- Should pass -->
   Isn't that amazing?
   That isn't possible.
-  I can't tell what is and what isn't.
+  I can't tell what is and what isn't. <!-- TODO -->
   <!-- Should fail -->
   Is not that amazing?
   That is not possible.
@@ -90,11 +90,11 @@
   <!-- Should pass -->
   It's cold outside.
   I think it's cold outside.
-  Let's find it, wherever it is.
+  Let's find it, wherever it is. <!-- TODO -->
   <!-- Should fail -->
   It is cold outside.
   I think it is cold outside.
-  Let's find it, wherever it's.
+  Let's find it, wherever it's. <!-- TODO -->
 <!-- shouldn't -->
   <!-- Should pass -->
   Shouldn't you be going?
@@ -108,18 +108,18 @@
   <!-- Should pass -->
   That's amazing.
   All that's here is free.
-  He wouldn't lie - if he could help it, that is.
+  He wouldn't lie - if he could help it, that is. <!-- TODO -->
   <!-- Should fail -->
   That is amazing.
   All that is here is free.
-  He wouldn't lie - if he could help it, that's.
+  He wouldn't lie - if he could help it, that's. <!-- TODO -->
 <!-- they're -->
   <!-- Should pass -->
   It can reach anyone, wherever they are.
   It can reach anyone, wherever they're located.
   They're a great team.
   <!-- Should fail -->
-  It can reach anyone, wherever they're.
+  It can reach anyone, wherever they're. <!-- TODO -->
   It can reach anyone, wherever they are located.
   They are a great team.
 <!-- wasn't -->
@@ -135,16 +135,16 @@
   <!-- Should pass -->
   We're groove crusaders.
   I think we're a great team.
-  Nobody knows where we are.
+  Nobody knows where we are. <!-- TODO -->
   <!-- Should fail -->
   We are groove crusaders.
   I think we are a great team.
-  Nobody knows where we're.
+  Nobody knows where we're. <!-- TODO -->
 <!-- we've -->
   <!-- Should pass -->
   We've come so far.
   Let's think about what we've done.
-  We should be grateful for all that we have.
+  We should be grateful for all that we have. <!-- TODO -->
   <!-- Should fail -->
   We have come so far.
   Let's think about what we have done.
