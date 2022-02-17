@@ -81,11 +81,11 @@
   <!-- Should pass -->
   Isn't that amazing?
   That isn't possible.
-  I can't tell what is and what isn't. <!-- TODO -->
+  It really isn't.
   <!-- Should fail -->
   Is not that amazing?
   That is not possible.
-  I can't tell what is and what is not.
+  It really is not.
 <!-- it's -->
   <!-- Should pass -->
   It's cold outside.
