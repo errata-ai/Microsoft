@@ -32,5 +32,6 @@ swap:
   were not: weren't
   'what is(?!\.)': what's
   when is: when's
-  where is: where's
+  'where is(?!\.)': where's
+  'where''s(?=\.)': where is
   will not: won't

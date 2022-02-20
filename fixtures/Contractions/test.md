@@ -368,7 +368,7 @@ Where is your curly mustache at?
 
 I can't tell where is best.
 
-It's easier to figure out where's not feasible than where's.
+It's easier to figure out not feasible than where's.
 
 <!-- won't -->
 
