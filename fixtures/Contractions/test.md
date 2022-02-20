@@ -224,7 +224,7 @@ That is amazing.
 
 All that is here is free.
 
-He wouldn't lie - if he could help it, that's. <!-- TODO -->
+He wouldn't lie - if he could help it, that's.
 
 <!-- they're -->
 
@@ -332,7 +332,7 @@ What is going on?
 
 We should do what is right.
 
-It's easier to tell what's not there than what's.
+It's easier to tell there than what's.
 
 <!-- when's -->
 
