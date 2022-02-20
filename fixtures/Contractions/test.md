@@ -350,7 +350,7 @@ When is it starting?
 
 I can't tell when is right.
 
-It's easier to figure out when's not feasible than when's.
+It's easier to figure out not feasible than when's.
 
 <!-- where's -->
 

@@ -31,7 +31,8 @@ swap:
   'we''ve(?=\.)': we have
   were not: weren't
   'what is(?!\.)': what's
-  when is: when's
+  'when is(?!\.)': when's
+  'when''s(?=\.)': when is
   'where is(?!\.)': where's
   'where''s(?=\.)': where is
   will not: won't
