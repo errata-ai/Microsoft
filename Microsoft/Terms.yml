@@ -16,12 +16,15 @@ swap:
   'chat ?bots?': chatbot(s)
   adaptor: adapter
   alphabetic: alphabetical
+  afterwards: afterward
+  alphanumeric: alphanumerical
   anti-aliasing: antialiasing
   anti-malware: antimalware
   anti-spyware: antispyware
   anti-virus: antivirus
   appendixes: appendices
   caap: CaaP
+  conversation-as-a-platform: conversation as a platform
   eb: EB
   gb: GB
   gbps: Gbps
