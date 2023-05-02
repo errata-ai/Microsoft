@@ -6,7 +6,7 @@ action:
   name: replace
 swap:
   '(?:agent|virtual assistant|intelligent personal assistant)': personal digital assistant
-  '(?:drive C:|drive C>|C: drive)': C drive
+  '(?:drive C:|drive C>|C: drive)': drive C
   '(?:internet bot|web robot)s?': bot(s)
   '(?:microsoft cloud|the cloud)': cloud
   '(?:mobile|smart) ?phone': phone
@@ -25,7 +25,7 @@ swap:
   anti-virus: antivirus
   appendixes: appendices
   artificial intelligence: AI
-  assembler: assembly language
+  '(?:assembler|machine language)': assembly language
   caap: CaaP
   conversation-as-a-platform: conversation as a platform
   eb: EB
