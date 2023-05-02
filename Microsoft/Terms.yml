@@ -15,6 +15,7 @@ swap:
   'back(?:-| )light': backlight
   'chat ?bots?': chatbot(s)
   adaptor: adapter
+  administrate: administer
   afterwards: afterward
   alphabetic: alphabetical
   alphanumeric: alphanumerical
@@ -24,6 +25,7 @@ swap:
   anti-virus: antivirus
   appendixes: appendices
   artificial intelligence: AI
+  assembler: assembly language
   caap: CaaP
   conversation-as-a-platform: conversation as a platform
   eb: EB
