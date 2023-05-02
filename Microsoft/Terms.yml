@@ -15,14 +15,15 @@ swap:
   'back(?:-| )light': backlight
   'chat ?bots?': chatbot(s)
   adaptor: adapter
-  alphabetic: alphabetical
   afterwards: afterward
+  alphabetic: alphabetical
   alphanumeric: alphanumerical
   anti-aliasing: antialiasing
   anti-malware: antimalware
   anti-spyware: antispyware
   anti-virus: antivirus
   appendixes: appendices
+  artificial intelligence: AI
   caap: CaaP
   conversation-as-a-platform: conversation as a platform
   eb: EB
