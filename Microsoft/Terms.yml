@@ -6,7 +6,7 @@ action:
   name: replace
 swap:
   '(?:agent|virtual assistant|intelligent personal assistant)': personal digital assistant
-  '(?:drive C:|drive C>|C: drive)': drive C
+  '(?:drive C:|drive C>|C: drive)': C drive
   '(?:internet bot|web robot)s?': bot(s)
   '(?:microsoft cloud|the cloud)': cloud
   '(?:mobile|smart) ?phone': phone
@@ -15,21 +15,13 @@ swap:
   'back(?:-| )light': backlight
   'chat ?bots?': chatbot(s)
   adaptor: adapter
-  administrate: administer
-  afterwards: afterward
   alphabetic: alphabetical
-  alphanumerical: alphanumeric
   anti-aliasing: antialiasing
   anti-malware: antimalware
   anti-spyware: antispyware
   anti-virus: antivirus
   appendixes: appendices
-  artificial intelligence: artificial intelligence
-  assembler: assembly language
-  bpp: bpp
-  bps: bps
   caap: CaaP
-  conversation-as-a-platform: conversation as a platform
   eb: EB
   gb: GB
   gbps: Gbps
