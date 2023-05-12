@@ -1,29 +1,24 @@
+# Microsoft
+
 > **NOTE**: This project is neither maintained nor endorsed by Microsoft.
 
 This repository contains a [Vale-compatible](https://github.com/errata-ai/vale) implementation of the [*Microsoft Writing Style Guide*](https://docs.microsoft.com/en-us/style-guide/welcome/) ([LICENSE](https://github.com/MicrosoftDocs/microsoft-style-guide/blob/master/LICENSE)).
 
-The goal is to showcase how to build and maintain a full-featured style guide for Vale, including many examples of using [extension points](https://errata-ai.github.io/vale/styles/#extension-points) and a test suite using [Cucumber](https://cucumber.io/), [`yamllint`](https://github.com/adrienverge/yamllint), and [Travis CI](https://travis-ci.org/).
-
-[![Build Status](https://travis-ci.com/errata-ai/Microsoft.svg?branch=master)](https://travis-ci.com/errata-ai/Microsoft) ![Vale version](https://img.shields.io/badge/vale-%3E%3D%20v1.7.0-blue.svg) ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
-
 ## Getting Started
 
-> :exclamation: Microsoft requires Vale >= **1.7.0**. :exclamation:
-
-Download the [latest release](https://github.com/errata-ai/Microsoft/releases), copy the "Microsoft" directory to your `StylesPath`, and include it in your configuration file:
+To get started, add the package to your configuration file (as shown below) and then run `vale sync`.
 
 ```ini
-# This goes in a file named either `.vale.ini` or `_vale.ini`.
-StylesPath = path/to/some/directory
-MinAlertLevel = warning # suggestion, warning or error
+StylesPath = styles
+MinAlertLevel = suggestion
 
-# Only Markdown and .txt files; change to whatever you're using.
-[*.{md,txt}]
-# List of styles to load.
-BasedOnStyles = Microsoft
+Packages = Microsoft
+
+[*]
+BasedOnStyles = Vale, Microsoft
 ```
 
-See [Usage](https://github.com/errata-ai/vale/#usage) for more information.
+See [Packages](https://vale.sh/hub/microsoft/) for more information.
 
 ## Repository Structure
 
