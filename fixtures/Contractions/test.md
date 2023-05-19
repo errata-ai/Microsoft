@@ -387,3 +387,7 @@ Will not you join us?
 You will not regret it.
 
 I will not.
+
+<!-- Should pass -->
+
+AllMatch returns true if pred returns true for all elements produced by prod, that is, all elements match.
