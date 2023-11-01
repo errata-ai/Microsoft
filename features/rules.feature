@@ -230,6 +230,14 @@ Feature: Rules
             test.md:5:6:Microsoft.Passive:'are related' looks like passive voice.
             """
 
+    Scenario: Plurals
+        When I test "Plurals"
+        Then the output should contain exactly:
+            """
+            test.md:3:130:Microsoft.Plurals:Don't add '(s)' to a singular noun. Use plural instead.
+            test.md:5:13:Microsoft.Plurals:Don't add '(es)' to a singular noun. Use plural instead.
+            """
+
     Scenario: Sentences
         When I test "Sentences"
         Then the output should contain exactly:
