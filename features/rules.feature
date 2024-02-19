@@ -152,8 +152,8 @@ Feature: Rules
             test.md:3:42:Microsoft.Dashes:Remove the spaces around ' —'.
             test.md:7:7:Microsoft.Dashes:Remove the spaces around ' —'.
             test.md:8:7:Microsoft.Dashes:Remove the spaces around '— '.
-            test.md:9:7:Microsoft.Dashes:Remove the spaces around ' —'.
-            test.md:10:7:Microsoft.Dashes:Remove the spaces around ' —'.
+            test.md:9:7:Microsoft.Dashes:Remove the spaces around ' — '.
+            test.md:10:7:Microsoft.Dashes:Remove the spaces around ' — '.
             """
 
     Scenario: Use of units
@@ -196,7 +196,7 @@ Feature: Rules
         Then the output should contain exactly:
             """
             test.md:3:10:Microsoft.Ellipses:In general, don't use an ellipsis.
-            test.md:5:13:Microsoft.Hyphens:' officially-' doesn't need a hyphen.
+            test.md:5:14:Microsoft.Hyphens:'officially-maintained' doesn't need a hyphen.
             test.md:7:13:Microsoft.OxfordComma:Use the Oxford comma in 'blue, green and orange.'.
             test.md:11:10:Microsoft.Quotes:Punctuation should be inside the quotes.
             test.md:15:19:Microsoft.Semicolon:Try to simplify this sentence.
@@ -215,11 +215,12 @@ Feature: Rules
         When I test "Headings"
         Then the output should contain exactly:
             """
+            test.md:1:3:Microsoft.Headings:'Test: modern documentation management' should use sentence-style capitalization.
             test.md:1:7:Microsoft.HeadingColons:Capitalize ': m'.
             test.md:5:3:Microsoft.Headings:'This is a Heading' should use sentence-style capitalization.
             test.md:7:13:Microsoft.HeadingPunctuation:Don't use end punctuation in headings.
+            test.md:9:3:Microsoft.Headings:'Accepting a JSON response' should use sentence-style capitalization.
             test.md:9:15:Microsoft.HeadingAcronyms:Avoid using acronyms in a title or heading.
-            test.md:15:3:Microsoft.Headings:'8. Do step eight' should use sentence-style capitalization.
             """
 
     Scenario: Passive voice
