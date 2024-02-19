@@ -48,7 +48,7 @@ jobs:
 
           pip install yamllint pyyaml docutils
         env:
-          VALE_VERSION: 2.26.0
+          VALE_VERSION: 3.1.0
 
       - name: Features
         run: bundle exec cucumber --format progress
