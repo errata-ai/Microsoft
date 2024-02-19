@@ -20,6 +20,7 @@ Feature: Rules
         Then the output should contain exactly:
             """
             test.md:3:6:Microsoft.Gender:Don't use 'he/she'.
+            test.md:5:5:Microsoft.GenderBias:Consider using 'camera operator(s)' instead of 'cameraman'.
             """
 
     Scenario: Use of AM and PM
