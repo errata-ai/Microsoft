@@ -177,8 +177,9 @@ Feature: Rules
         When I test "Numbers"
         Then the output should contain exactly:
             """
-            test.md:1:15:Microsoft.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
-            test.md:4:48:Microsoft.RangeTime:Use 'to' instead of a dash in 'AM - 2:00 PM'.
+            test.md:3:48:Microsoft.RangeTime:Use 'to' instead of a dash in 'AM - 2:00 PM'.
+            test.md:7:16:Microsoft.Negative:Form a negative number with an en dash, not a hyphen.
+            test.md:7:33:Microsoft.Negative:Form a negative number with an en dash, not a hyphen.
             """
 
     Scenario: Date Formatting
