@@ -7,7 +7,6 @@ action:
   name: replace
 swap:
   (?:extract|take away|eliminate): remove
-  (?:give|gave) rise to: lead to
   (?:in order to|as a means to): to
   (?:inform|let me know): tell
   (?:previous|prior) to: before
