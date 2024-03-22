@@ -44,12 +44,11 @@ Feature: Rules
             """
             test.md:3:25:Microsoft.Avoid:Don't use 'abortion'. See the A-Z word list for details.
             test.md:5:9:Microsoft.Vocab:Verify your use of 'and/or' with the A-Z word list.
-            test.md:5:34:Microsoft.ComplexWords:Consider using 'plenty' instead of 'abundance'.
             test.md:7:8:Microsoft.Adverbs:Consider removing 'very'.
-            test.md:9:1:Microsoft.FirstPerson:Use first person (such as 'I ') sparingly.
+            test.md:9:1:Microsoft.FirstPerson:Use first person (such as 'I') sparingly.
             test.md:9:27:Microsoft.Wordiness:Consider using 'enough' instead of 'an adequate number of'.
             test.md:11:9:Microsoft.Vocab:Verify your use of 'ensure' with the A-Z word list.
-            test.md:17:1:Microsoft.FirstPerson:Use first person (such as 'I ') sparingly.
+            test.md:17:1:Microsoft.FirstPerson:Use first person (such as 'I') sparingly.
             test.md:19:13:Microsoft.FirstPerson:Use first person (such as 'me') sparingly.
             test.md:21:1:Microsoft.FirstPerson:Use first person (such as 'I'm') sparingly.
             test.md:23:1:Microsoft.We:Try to avoid using first-person plural like 'We'.
@@ -57,10 +56,11 @@ Feature: Rules
             test.md:27:14:Microsoft.FirstPerson:Use first person (such as 'mine') sparingly.
             test.md:29:17:Microsoft.We:Try to avoid using first-person plural like 'us'.
             test.md:31:1:Microsoft.We:Try to avoid using first-person plural like 'Let's'.
-            test.md:33:1:Microsoft.FirstPerson:Use first person (such as 'I, ') sparingly.
+            test.md:33:1:Microsoft.FirstPerson:Use first person (such as 'I') sparingly.
             test.md:33:21:Microsoft.We:Try to avoid using first-person plural like 'our'.
             test.md:35:1:Microsoft.We:Try to avoid using first-person plural like 'We'.
-            test.md:35:8:Microsoft.ComplexWords:Consider using 'carry out' or 'do' instead of 'accomplish'.
+            test.md:37:1:Microsoft.FirstPerson:Use first person (such as 'I') sparingly.
+            test.md:37:21:Microsoft.ComplexWords:Consider using 'to' instead of 'as a means to'.
             """
 
     #  Scenario: Backend vs. Back-end
