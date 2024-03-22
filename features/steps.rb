@@ -1,4 +1,4 @@
-cmd = 'vale --output=line --sort --normalize --relative'
+cmd = 'vale --output=line --sort --normalize --relative --no-global'
 
 When(/^I test "(.*)"$/) do |rule|
   step %(I cd to "../../fixtures/#{rule}")
