@@ -11,8 +11,6 @@ swap:
   anchor(?:m[ae]n|wom[ae]n): anchor(s)
   authoress: author
   camera(?:m[ae]n|wom[ae]n): camera operator(s)
-  chair(?:m[ae]n|wom[ae]n): chair(s)
-  congress(?:m[ae]n|wom[ae]n): member(s) of congress
   door(?:m[ae]|wom[ae]n): concierge(s)
   draft(?:m[ae]n|wom[ae]n): drafter(s)
   fire(?:m[ae]n|wom[ae]n): firefighter(s)
@@ -21,14 +19,12 @@ swap:
   garbage(?:m[ae]n|wom[ae]n): waste collector(s)
   lady lawyer: lawyer
   ladylike: courteous
-  landlord: building manager
   mail(?:m[ae]n|wom[ae]n): mail carriers
   man and wife: husband and wife
   man enough: strong enough
   mankind: human kind
   manmade: manufactured
   manpower: personnel
-  men and girls: men and women
   middle(?:m[ae]n|wom[ae]n): intermediary
   news(?:m[ae]n|wom[ae]n): journalist(s)
   ombuds(?:man|woman): ombuds
