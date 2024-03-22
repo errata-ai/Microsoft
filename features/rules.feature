@@ -44,7 +44,7 @@ Feature: Rules
             """
             test.md:3:25:Microsoft.Avoid:Don't use 'abortion'. See the A-Z word list for details.
             test.md:5:9:Microsoft.Vocab:Verify your use of 'and/or' with the A-Z word list.
-            test.md:7:8:Microsoft.Adverbs:Consider removing 'very'.
+            test.md:7:8:Microsoft.Adverbs:Remove 'very' if it's not important to the meaning of the statement.
             test.md:9:1:Microsoft.FirstPerson:Use first person (such as 'I') sparingly.
             test.md:9:27:Microsoft.Wordiness:Consider using 'enough' instead of 'an adequate number of'.
             test.md:11:9:Microsoft.Vocab:Verify your use of 'ensure' with the A-Z word list.
@@ -60,7 +60,7 @@ Feature: Rules
             test.md:33:21:Microsoft.We:Try to avoid using first-person plural like 'our'.
             test.md:35:1:Microsoft.We:Try to avoid using first-person plural like 'We'.
             test.md:37:1:Microsoft.FirstPerson:Use first person (such as 'I') sparingly.
-            test.md:37:21:Microsoft.ComplexWords:Consider using 'to' instead of 'as a means to'.
+            test.md:37:21:Microsoft.Wordiness:Consider using 'to' instead of 'as a means to'.
             """
 
     #  Scenario: Backend vs. Back-end
@@ -170,8 +170,8 @@ Feature: Rules
         When I test "URL"
         Then the output should contain exactly:
             """
-            test.md:1:11:Microsoft.URLFormat:Use 'URL of' instead of 'URL for'.
-            test.md:3:8:Microsoft.URLFormat:Use 'a URL' instead of 'an URL'.
+            test.md:1:11:Microsoft.URLFormat:Use 'of' (not 'for') to describe the relationship of the word URL to a resource.
+            test.md:3:11:Microsoft.URLFormat:Use 'of' (not 'for') to describe the relationship of the word URL to a resource.
             """
 
     Scenario: Use of numbers
