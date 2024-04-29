@@ -10,4 +10,4 @@ action:
     - trim_right
     - ".?!"
 tokens:
-  - '[a-z][.?!](?:\s|$)'
+  - "[a-z][.?!]$"
